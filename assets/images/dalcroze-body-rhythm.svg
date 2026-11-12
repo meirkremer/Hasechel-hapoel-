@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="900" viewBox="0 0 1400 900" role="img" aria-labelledby="title desc">
+<title id="title">הגוף והקצב</title>
+<desc id="desc">איור מופשט של דמות בתנועה בין קווים גליים וסימנים קצביים, כהמחשה לקשר בין מוזיקה לתנועת הגוף.</desc>
+<defs>
+  <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#eee8da"/><stop offset="1" stop-color="#ddd7c9"/></linearGradient>
+  <linearGradient id="green" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#294638"/><stop offset="1" stop-color="#57705e"/></linearGradient>
+  <filter id="soft"><feGaussianBlur stdDeviation="16"/></filter>
+</defs>
+<rect width="1400" height="900" fill="url(#paper)"/>
+<circle cx="1080" cy="300" r="250" fill="#c5a16b" opacity=".16" filter="url(#soft)"/>
+<path d="M80 630 C230 500 300 780 450 630 S690 480 820 630 S1060 780 1320 560" fill="none" stroke="#a34e36" stroke-width="5" opacity=".65"/>
+<path d="M70 690 C220 560 300 840 450 690 S690 540 820 690 S1060 840 1320 620" fill="none" stroke="#294638" stroke-width="2" opacity=".45"/>
+<g fill="none" stroke="#294638" stroke-width="2" opacity=".35">
+<path d="M130 180 H1270"/><path d="M130 220 H1270"/><path d="M130 260 H1270"/><path d="M130 300 H1270"/><path d="M130 340 H1270"/>
+</g>
+<g fill="#a34e36" opacity=".75">
+<circle cx="230" cy="180" r="12"/><circle cx="460" cy="260" r="9"/><circle cx="690" cy="180" r="14"/><circle cx="920" cy="300" r="10"/><circle cx="1160" cy="220" r="13"/>
+</g>
+<g transform="translate(690 470)" stroke="url(#green)" stroke-linecap="round" stroke-linejoin="round" fill="none">
+  <circle cx="0" cy="-205" r="46" fill="#294638" stroke="none"/>
+  <path d="M-4 -150 C-45 -85 -65 -10 -30 70 C-5 130 65 155 92 205" stroke-width="54"/>
+  <path d="M-35 -105 C-135 -170 -230 -165 -300 -105" stroke-width="36"/>
+  <path d="M-35 -105 C-125 -30 -205 25 -290 5" stroke-width="27" opacity=".85"/>
+  <path d="M-15 -120 C75 -190 165 -220 250 -190" stroke-width="34"/>
+  <path d="M-10 -85 C100 -55 195 -15 255 60" stroke-width="24" opacity=".8"/>
+  <path d="M-28 50 C-100 140 -140 220 -155 300" stroke-width="39"/>
+  <path d="M-5 65 C45 145 75 225 55 315" stroke-width="35"/>
+</g>
+<g fill="#c5a16b" opacity=".9">
+  <circle cx="355" cy="430" r="16"/><circle cx="1050" cy="480" r="20"/><circle cx="1160" cy="600" r="12"/>
+</g>
+<g fill="#294638" font-family="Georgia,serif" opacity=".8">
+  <text x="150" y="110" font-size="26" letter-spacing="7">TIME · SPACE · MOVEMENT</text>
+  <text x="1070" y="790" font-size="20" text-anchor="end" letter-spacing="3">RHYTHM IN THE BODY</text>
+</g>
+</svg>
