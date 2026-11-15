@@ -28,17 +28,3 @@ jobs:
       - name: Deploy
         id: deployment
         uses: actions/deploy-pages@v4
-      - name: Temporary verify published feature and assets
-        run: |
-          set -e
-          base="https://meirkremer.github.io/Hasechel-hapoel-"
-          curl -fsSL --retry 10 --retry-delay 5 --retry-all-errors "$base/articles/finnish-war-1808-1809.html" -o /tmp/finnish-article.html
-          grep -Fq "המלחמה שבה פינלנד נולדה מחדש" /tmp/finnish-article.html
-          grep -Fq "researchportal.helsinki.fi" /tmp/finnish-article.html
-          curl -fsSL --retry 10 --retry-delay 5 --retry-all-errors "$base/assets/images/finnish-war-baltic-theatre.svg" -o /tmp/finnish-map.svg
-          curl -fsSL --retry 10 --retry-delay 5 --retry-all-errors "$base/assets/images/finnish-war-two-political-aftermaths.svg" -o /tmp/finnish-timeline.svg
-          grep -q "<svg" /tmp/finnish-map.svg
-          grep -q "<svg" /tmp/finnish-timeline.svg
-          printf "PUBLIC ARTICLE WITH INLINE SOURCES OK: %s bytes\n" "$(wc -c < /tmp/finnish-article.html)"
-          printf "PUBLIC MAP SVG OK: %s bytes\n" "$(wc -c < /tmp/finnish-map.svg)"
-          printf "PUBLIC TIMELINE SVG OK: %s bytes\n" "$(wc -c < /tmp/finnish-timeline.svg)"
