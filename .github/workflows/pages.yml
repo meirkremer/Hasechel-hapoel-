@@ -19,6 +19,9 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+      - name: Temporary Wikipedia random selection diagnostic
+        run: |
+          curl -fsSL --retry 3 --retry-delay 2 -A "HasechelHapoelMagazine/1.0 (research run)" "https://he.wikipedia.org/w/api.php?action=query&list=random&rnnamespace=0&rnlimit=50&format=json&formatversion=2" | jq -r '.query.random[] | [.id, .title] | @tsv'
       - name: Configure Pages
         uses: actions/configure-pages@v5
       - name: Upload artifact
