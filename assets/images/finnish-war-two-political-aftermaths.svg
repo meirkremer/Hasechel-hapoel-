@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+<title id="title">שתי התוצאות החוקתיות של המלחמה הפינית</title>
+<desc id="desc">ציר זמן משנת 1807 עד 1863 המציג את הסכם טילזיט, הפלישה הרוסית, אספת פורבו, ההפיכה והחוקה החדשה בשוודיה, הסכם חאמינה וחידוש אספת המעמדות בפינלנד.</desc>
+<defs>
+  <pattern id="paperGrid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#d5cec0" stroke-width="1" opacity=".42"/></pattern>
+</defs>
+<rect width="1200" height="720" fill="#f3efe6"/>
+<rect width="1200" height="720" fill="url(#paperGrid)"/>
+<text x="1120" y="62" text-anchor="end" fill="#a34e36" font-family="Arial,sans-serif" font-size="17" font-weight="700" letter-spacing="2">השכל הפועל · ציר זמן</text>
+<text x="1120" y="103" text-anchor="end" fill="#20251f" font-family="Georgia,serif" font-size="38">אותה מלחמה, שני מסלולים פוליטיים</text>
+<line x1="115" y1="194" x2="1085" y2="194" stroke="#a6a092" stroke-width="3"/>
+<g fill="#20251f" font-family="Arial,sans-serif" font-size="20" font-weight="700">
+  <text x="150" y="165" text-anchor="middle">1807</text>
+  <text x="365" y="165" text-anchor="middle">1808</text>
+  <text x="650" y="165" text-anchor="middle">1809</text>
+  <text x="1050" y="165" text-anchor="middle">1863</text>
+</g>
+<g fill="#a34e36">
+  <circle cx="150" cy="194" r="10"/><circle cx="365" cy="194" r="10"/><circle cx="650" cy="194" r="10"/><circle cx="1050" cy="194" r="10"/>
+</g>
+<rect x="75" y="235" width="1050" height="170" rx="8" fill="#e3e9e2" stroke="#c4d0c5"/>
+<text x="1090" y="273" text-anchor="end" fill="#294638" font-family="Georgia,serif" font-size="27" font-weight="700">פינלנד · אוטונומיה בתוך האימפריה הרוסית</text>
+<line x1="170" y1="328" x2="1040" y2="328" stroke="#294638" stroke-width="4"/>
+<circle cx="365" cy="328" r="11" fill="#294638"/><circle cx="650" cy="328" r="11" fill="#294638"/><circle cx="1050" cy="328" r="11" fill="#294638"/>
+<g fill="#26382e" font-family="Arial,sans-serif">
+  <text x="365" y="306" text-anchor="middle" font-size="17" font-weight="700">פברואר 1808</text>
+  <text x="365" y="360" text-anchor="middle" font-size="16">פלישה רוסית</text>
+  <text x="650" y="306" text-anchor="middle" font-size="17" font-weight="700">מרץ–יולי 1809</text>
+  <text x="650" y="360" text-anchor="middle" font-size="16">אספת פורבו והבטחת הצאר</text>
+  <text x="1050" y="306" text-anchor="middle" font-size="17" font-weight="700">1863</text>
+  <text x="1050" y="360" text-anchor="middle" font-size="16">כינוס האספה מחדש</text>
+</g>
+<rect x="75" y="430" width="1050" height="170" rx="8" fill="#eee2da" stroke="#d9c2b7"/>
+<text x="1090" y="468" text-anchor="end" fill="#a34e36" font-family="Georgia,serif" font-size="27" font-weight="700">שוודיה · רפורמה חוקתית והגבלת המלוכה</text>
+<line x1="170" y1="523" x2="1040" y2="523" stroke="#a34e36" stroke-width="4"/>
+<circle cx="650" cy="523" r="11" fill="#a34e36"/>
+<g fill="#58392f" font-family="Arial,sans-serif">
+  <text x="650" y="501" text-anchor="middle" font-size="17" font-weight="700">13 במרץ 1809</text>
+  <text x="650" y="555" text-anchor="middle" font-size="16">הפיכה והדחת גוסטב הרביעי</text>
+  <text x="650" y="579" text-anchor="middle" font-size="16">6 ביוני: חוקה חדשה</text>
+</g>
+<rect x="75" y="630" width="1050" height="54" rx="4" fill="#20251f"/>
+<text x="600" y="665" text-anchor="middle" fill="#f3efe6" font-family="Arial,sans-serif" font-size="18">17 בספטמבר 1809 · הסכם חאמינה: פינלנד ואיי אולנד עוברים לרוסיה</text>
+</svg>

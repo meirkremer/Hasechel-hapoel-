@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+<title id="title">זירת המלחמה הפינית, 1808–1809</title>
+<desc id="desc">תרשים סכמטי המציג את שוודיה ממערב, פינלנד ממזרח, מפרץ בוטניה ביניהן, ואת מסלולי ההתקדמות הרוסיים בפינלנד ובמעבר הקרח באזור קוורקן.</desc>
+<defs>
+  <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M36 0H0V36" fill="none" stroke="#d5cec0" stroke-width="1" opacity=".45"/></pattern>
+  <marker id="arrowRust" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#a34e36"/></marker>
+  <marker id="arrowGreen" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#294638"/></marker>
+</defs>
+<rect width="1200" height="720" fill="#f3efe6"/>
+<rect width="1200" height="720" fill="url(#grid)"/>
+<text x="1120" y="64" text-anchor="end" fill="#a34e36" font-family="Arial,sans-serif" font-size="17" font-weight="700" letter-spacing="2">השכל הפועל · מפת הקשר</text>
+<text x="1120" y="103" text-anchor="end" fill="#20251f" font-family="Georgia,serif" font-size="38">המלחמה הפינית, 1808–1809</text>
+<path d="M118 158 C195 103 322 118 380 195 C423 251 405 309 432 362 C453 416 415 481 380 545 C342 615 231 625 155 569 C91 522 82 420 94 341 C103 270 75 211 118 158Z" fill="#d9d5c8" stroke="#8c9185" stroke-width="3"/>
+<path d="M700 132 C804 95 968 111 1051 190 C1120 256 1082 335 1101 403 C1120 486 1045 580 940 616 C846 647 769 590 728 519 C687 449 698 382 660 319 C624 259 641 167 700 132Z" fill="#d9d5c8" stroke="#8c9185" stroke-width="3"/>
+<path d="M420 155 C520 133 617 153 674 214 C718 262 708 333 683 376 C654 427 637 487 579 518 C521 548 451 511 425 460 C397 408 438 346 415 290 C398 240 383 186 420 155Z" fill="#dce5e2" stroke="#a7b8b1" stroke-width="2"/>
+<path d="M590 531 C665 521 742 542 798 597 C835 635 847 674 842 720H550 C555 650 551 584 590 531Z" fill="#dce5e2" stroke="#a7b8b1" stroke-width="2"/>
+<text x="245" y="357" text-anchor="middle" fill="#53605a" font-family="Georgia,serif" font-size="34">שוודיה</text>
+<text x="898" y="355" text-anchor="middle" fill="#53605a" font-family="Georgia,serif" font-size="34">פינלנד</text>
+<text x="555" y="315" text-anchor="middle" fill="#6e8c83" font-family="Arial,sans-serif" font-size="22" font-weight="700">מפרץ בוטניה</text>
+<text x="696" y="649" text-anchor="middle" fill="#6e8c83" font-family="Arial,sans-serif" font-size="19">הים הבלטי</text>
+<g fill="#20251f" font-family="Arial,sans-serif" font-size="18">
+  <circle cx="250" cy="504" r="7" fill="#294638"/><text x="235" y="536" text-anchor="middle">סטוקהולם</text>
+  <circle cx="472" cy="432" r="7" fill="#294638"/><text x="460" y="462" text-anchor="middle">אומאו</text>
+  <circle cx="763" cy="493" r="7" fill="#294638"/><text x="746" y="524" text-anchor="middle">ואסה</text>
+  <circle cx="825" cy="541" r="7" fill="#294638"/><text x="812" y="571" text-anchor="middle">טורקו</text>
+  <circle cx="940" cy="527" r="7" fill="#294638"/><text x="956" y="552" text-anchor="middle">פורבו</text>
+  <circle cx="1018" cy="495" r="7" fill="#294638"/><text x="1034" y="476" text-anchor="middle">הלסינקי</text>
+  <circle cx="1100" cy="430" r="7" fill="#294638"/><text x="1110" y="405" text-anchor="end">סנקט פטרבורג</text>
+</g>
+<path d="M1090 430 C1044 444 1014 468 990 491" fill="none" stroke="#a34e36" stroke-width="7" stroke-linecap="round" marker-end="url(#arrowRust)"/>
+<text x="1074" y="380" text-anchor="end" fill="#a34e36" font-family="Arial,sans-serif" font-size="17" font-weight="700">הפלישה הרוסית, 1808</text>
+<path d="M777 493 C673 468 566 450 480 438" fill="none" stroke="#294638" stroke-width="6" stroke-dasharray="13 10" stroke-linecap="round" marker-end="url(#arrowGreen)"/>
+<text x="626" y="435" text-anchor="middle" fill="#294638" font-family="Arial,sans-serif" font-size="17" font-weight="700">מעבר קוורקן על הקרח, 1809</text>
+<path d="M833 543 C762 515 689 493 641 459" fill="none" stroke="#a34e36" stroke-width="4" stroke-dasharray="8 8" marker-end="url(#arrowRust)"/>
+<ellipse cx="664" cy="493" rx="28" ry="12" fill="#c5a16b" opacity=".9"/>
+<text x="666" y="550" text-anchor="middle" fill="#80643c" font-family="Arial,sans-serif" font-size="16">איי אולנד</text>
+<rect x="80" y="625" width="1040" height="55" rx="4" fill="#e9e3d7" stroke="#d5cec0"/>
+<text x="600" y="660" text-anchor="middle" fill="#596158" font-family="Arial,sans-serif" font-size="16">המחשה סכמטית בלבד — כיווני תנועה ומיקומים כלליים, ללא קנה מידה</text>
+</svg>
