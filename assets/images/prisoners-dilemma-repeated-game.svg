@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="620" viewBox="0 0 1200 620" role="img" aria-labelledby="title desc">
+<title id="title">איך משחק חוזר משנה את התמריצים</title>
+<desc id="desc">מעגל של ארבעה שלבים: החלטה, תוצאה, זיכרון ומוניטין, והחלטה בסיבוב הבא.</desc>
+<rect width="1200" height="620" fill="#e9e3d7"/>
+<text x="1100" y="74" text-anchor="end" fill="#294638" font-family="Heebo,Arial,sans-serif" font-size="28" font-weight="700">כשהמפגש אינו חד־פעמי</text>
+<text x="1100" y="112" text-anchor="end" fill="#74756c" font-family="Heebo,Arial,sans-serif" font-size="18">העבר נעשה מידע שמשפיע על הבחירה הבאה</text>
+<g fill="none" stroke="#c5a16b" stroke-width="9" stroke-linecap="round">
+<path d="M820 245 C900 245 935 285 935 330"/>
+<path d="M820 430 C770 490 680 500 615 475"/>
+<path d="M380 430 C300 430 265 385 265 335"/>
+<path d="M380 245 C430 165 520 150 585 175"/>
+</g>
+<g fill="#294638">
+<path d="M918 320l18 22 15-24z"/>
+<path d="M605 456l-10 28 29-6z"/>
+<path d="M282 345l-22-17 2 30z"/>
+<path d="M570 183l28-10-24-18z"/>
+</g>
+<rect x="390" y="150" width="420" height="125" rx="18" fill="#f3efe6" stroke="#294638" stroke-width="3"/>
+<rect x="820" y="285" width="300" height="150" rx="18" fill="#f3efe6" stroke="#a34e36" stroke-width="3"/>
+<rect x="390" y="430" width="420" height="125" rx="18" fill="#f3efe6" stroke="#294638" stroke-width="3"/>
+<rect x="80" y="285" width="300" height="150" rx="18" fill="#f3efe6" stroke="#8a6d3b" stroke-width="3"/>
+<text x="600" y="202" text-anchor="middle" fill="#294638" font-family="Heebo,Arial,sans-serif" font-size="26" font-weight="700">1 · החלטה עכשיו</text>
+<text x="600" y="242" text-anchor="middle" fill="#555e54" font-family="Heebo,Arial,sans-serif" font-size="19">לשתף פעולה או לסטות</text>
+<text x="970" y="345" text-anchor="middle" fill="#a34e36" font-family="Heebo,Arial,sans-serif" font-size="25" font-weight="700">2 · תוצאה</text>
+<text x="970" y="385" text-anchor="middle" fill="#555e54" font-family="Heebo,Arial,sans-serif" font-size="18">רווח, הפסד או תגובה</text>
+<text x="600" y="482" text-anchor="middle" fill="#294638" font-family="Heebo,Arial,sans-serif" font-size="26" font-weight="700">3 · זיכרון ומוניטין</text>
+<text x="600" y="522" text-anchor="middle" fill="#555e54" font-family="Heebo,Arial,sans-serif" font-size="19">מה למדתי על השותף?</text>
+<text x="230" y="345" text-anchor="middle" fill="#8a6d3b" font-family="Heebo,Arial,sans-serif" font-size="24" font-weight="700">4 · הסיבוב הבא</text>
+<text x="230" y="385" text-anchor="middle" fill="#555e54" font-family="Heebo,Arial,sans-serif" font-size="18">העבר משנה את הציפייה</text>
+<text x="1100" y="590" text-anchor="end" fill="#74756c" font-family="Heebo,Arial,sans-serif" font-size="16">המחשה מושגית: לא רצף תוצאות של ניסוי מסוים.</text>
+</svg>

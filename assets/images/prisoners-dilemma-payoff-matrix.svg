@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+<title id="title">מטריצת התשלומים של דילמת האסיר</title>
+<desc id="desc">טבלה חזותית המציגה ארבעה מצבים: שיתוף פעולה הדדי, בגידה חד צדדית בכל אחד מהכיוונים, ובגידה הדדית.</desc>
+<rect width="1200" height="760" fill="#f3efe6"/>
+<path d="M70 90H1130" stroke="#c5a16b" stroke-width="3"/>
+<text x="1130" y="64" text-anchor="end" fill="#294638" font-family="Heebo,Arial,sans-serif" font-size="24" font-weight="700">המשחק הקטן שמייצר הפסד משותף</text>
+<text x="600" y="145" text-anchor="middle" fill="#20251f" font-family="Heebo,Arial,sans-serif" font-size="30" font-weight="700">בחירת שחקן ב׳</text>
+<text x="900" y="195" text-anchor="middle" fill="#8a6d3b" font-family="Heebo,Arial,sans-serif" font-size="22" font-weight="700">משתף פעולה</text>
+<text x="520" y="195" text-anchor="middle" fill="#a34e36" font-family="Heebo,Arial,sans-serif" font-size="22" font-weight="700">בוגד</text>
+<text x="111" y="435" text-anchor="middle" fill="#20251f" font-family="Heebo,Arial,sans-serif" font-size="23" font-weight="700" transform="rotate(-90 111 435)">בחירת שחקן א׳</text>
+<text x="245" y="345" text-anchor="middle" fill="#8a6d3b" font-family="Heebo,Arial,sans-serif" font-size="20" font-weight="700">משתף פעולה</text>
+<text x="245" y="585" text-anchor="middle" fill="#a34e36" font-family="Heebo,Arial,sans-serif" font-size="20" font-weight="700">בוגד</text>
+<rect x="330" y="225" width="390" height="210" rx="18" fill="#dfe6d9" stroke="#294638" stroke-width="2"/>
+<rect x="740" y="225" width="390" height="210" rx="18" fill="#f0dfd5" stroke="#a34e36" stroke-width="2"/>
+<rect x="330" y="455" width="390" height="210" rx="18" fill="#f0dfd5" stroke="#a34e36" stroke-width="2"/>
+<rect x="740" y="455" width="390" height="210" rx="18" fill="#e9e3d7" stroke="#6b7167" stroke-width="2"/>
+<text x="525" y="295" text-anchor="middle" fill="#294638" font-family="Heebo,Arial,sans-serif" font-size="24" font-weight="700">שניהם משתפים פעולה</text>
+<text x="525" y="375" text-anchor="middle" fill="#20251f" font-family="Heebo,Arial,sans-serif" font-size="54" font-weight="800">3 : 3</text>
+<text x="935" y="295" text-anchor="middle" fill="#a34e36" font-family="Heebo,Arial,sans-serif" font-size="24" font-weight="700">א׳ משתף, ב׳ בוגד</text>
+<text x="935" y="375" text-anchor="middle" fill="#20251f" font-family="Heebo,Arial,sans-serif" font-size="54" font-weight="800">0 : 5</text>
+<text x="525" y="525" text-anchor="middle" fill="#a34e36" font-family="Heebo,Arial,sans-serif" font-size="24" font-weight="700">א׳ בוגד, ב׳ משתף</text>
+<text x="525" y="605" text-anchor="middle" fill="#20251f" font-family="Heebo,Arial,sans-serif" font-size="54" font-weight="800">5 : 0</text>
+<text x="935" y="525" text-anchor="middle" fill="#555e54" font-family="Heebo,Arial,sans-serif" font-size="24" font-weight="700">שניהם בוגדים</text>
+<text x="935" y="605" text-anchor="middle" fill="#20251f" font-family="Heebo,Arial,sans-serif" font-size="54" font-weight="800">1 : 1</text>
+<text x="1130" y="720" text-anchor="end" fill="#74756c" font-family="Heebo,Arial,sans-serif" font-size="17">המספר הראשון הוא הרווח של א׳; השני — של ב׳. נקודות תועלת להמחשה.</text>
+</svg>
