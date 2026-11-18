@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="t d">
+<title id="t">ההמון והאחריות</title><desc id="d">איור מושגי של אדם במרכז מרחב ציבורי וסביבו צופים, עם קווי מבט ומעגלים הממחישים אחריות מפוזרת.</desc>
+<rect width="1600" height="900" fill="#f3efe6"/>
+<path d="M0 710H1600" stroke="#d5cec0" stroke-width="3"/>
+<path d="M0 770C330 720 550 810 820 760S1320 720 1600 770V900H0Z" fill="#e9e3d7"/>
+<circle cx="800" cy="465" r="310" fill="none" stroke="#c5a16b" stroke-width="2" stroke-dasharray="8 15"/>
+<circle cx="800" cy="465" r="220" fill="none" stroke="#d5cec0" stroke-width="2"/>
+<g stroke="#a34e36" stroke-width="3" stroke-dasharray="9 10" opacity=".55" fill="none">
+<path d="M260 330L720 560"/><path d="M500 190L760 535"/><path d="M1100 190L850 535"/><path d="M1350 340L880 565"/><path d="M1280 620L875 620"/><path d="M330 640L720 610"/>
+</g>
+<g fill="#294638">
+<circle cx="255" cy="315" r="36"/><path d="M205 365Q255 330 305 365L330 555H180Z"/>
+<circle cx="495" cy="175" r="34"/><path d="M445 225Q495 195 545 225L565 420H425Z"/>
+<circle cx="1105" cy="175" r="34"/><path d="M1055 225Q1105 195 1155 225L1175 420H1035Z"/>
+<circle cx="1350" cy="330" r="36"/><path d="M1300 380Q1350 345 1400 380L1425 565H1275Z"/>
+<circle cx="1280" cy="610" r="32"/><path d="M1235 655Q1280 625 1325 655L1345 790H1215Z"/>
+<circle cx="330" cy="625" r="32"/><path d="M285 670Q330 640 375 670L395 800H265Z"/>
+</g>
+<g fill="#a34e36">
+<circle cx="800" cy="530" r="42"/><path d="M745 585Q800 555 855 585L885 705Q800 740 715 705Z"/>
+<path d="M745 690L685 745L700 760L780 720Z"/><path d="M855 690L920 730L910 750L825 720Z"/>
+</g>
+<g fill="#c5a16b" opacity=".9"><circle cx="800" cy="465" r="8"/><circle cx="800" cy="465" r="18" fill="none" stroke="#c5a16b" stroke-width="3"/></g>
+<text x="800" y="90" text-anchor="middle" fill="#20251f" font-family="Heebo,Arial,sans-serif" font-size="54" font-weight="700">מי יפעל ראשון?</text>
+<text x="800" y="145" text-anchor="middle" fill="#74756c" font-family="Heebo,Arial,sans-serif" font-size="24">כשהעיניים של כולם מופנות לאירוע — האחריות עלולה להתפזר</text>
+<rect x="60" y="820" width="280" height="42" rx="21" fill="#294638"/>
+<text x="200" y="848" text-anchor="middle" fill="#f3efe6" font-family="Heebo,Arial,sans-serif" font-size="18">המחשה מקורית</text>
+</svg>

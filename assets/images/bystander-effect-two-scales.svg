@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 820" role="img" aria-labelledby="t d">
+<title id="t">שני מדדים שונים של עזרה בקבוצה</title><desc id="d">השוואה מושגית בין הסיכוי שאדם מסוים יתערב, שעשוי לרדת בקבוצה גדולה, לבין הסיכוי שלפחות אדם אחד יתערב, שעשוי לעלות.</desc>
+<rect width="1500" height="820" fill="#f3efe6"/>
+<text x="750" y="85" text-anchor="middle" fill="#20251f" font-family="Heebo,Arial,sans-serif" font-size="44" font-weight="700">אותו קהל, שתי הסתברויות שונות</text>
+<text x="750" y="128" text-anchor="middle" fill="#74756c" font-family="Heebo,Arial,sans-serif" font-size="22">הסיכוי של היחיד אינו זהה לסיכוי שלפחות מישהו יפעל</text>
+<rect x="790" y="205" width="610" height="450" rx="22" fill="#e9e3d7" stroke="#d5cec0" stroke-width="2"/>
+<rect x="100" y="205" width="610" height="450" rx="22" fill="#e9e3d7" stroke="#d5cec0" stroke-width="2"/>
+<g font-family="Heebo,Arial,sans-serif" text-anchor="middle">
+<text x="1095" y="275" font-size="30" font-weight="700" fill="#294638">הסיכוי שלפחות אדם אחד יעזור</text>
+<text x="405" y="275" font-size="30" font-weight="700" fill="#a34e36">הסיכוי שאדם יחיד יעזור</text>
+<text x="1095" y="325" font-size="19" fill="#74756c">עשוי לעלות כשיש יותר מועמדים לפעולה</text>
+<text x="405" y="325" font-size="19" fill="#74756c">עשוי לרדת בגלל פיזור אחריות</text>
+</g>
+<g stroke="#294638" stroke-width="9" stroke-linecap="round" fill="none">
+<path d="M900 545L1050 465L1200 385L1320 325"/><path d="M1280 325L1320 325L1320 365"/>
+</g>
+<g stroke="#a34e36" stroke-width="9" stroke-linecap="round" fill="none">
+<path d="M180 365L330 430L480 500L620 565"/><path d="M580 565L620 565L620 525"/>
+</g>
+<g fill="#c5a16b"><circle cx="900" cy="545" r="11"/><circle cx="1050" cy="465" r="11"/><circle cx="1200" cy="385" r="11"/><circle cx="1320" cy="325" r="11"/></g>
+<g fill="#a34e36"><circle cx="180" cy="365" r="11"/><circle cx="330" cy="430" r="11"/><circle cx="480" cy="500" r="11"/><circle cx="620" cy="565" r="11"/></g>
+<g font-family="Heebo,Arial,sans-serif" font-size="19" fill="#59645c" text-anchor="middle">
+<text x="1095" y="600">קבוצה קטנה ← קבוצה גדולה</text>
+<text x="405" y="600">קבוצה קטנה ← קבוצה גדולה</text>
+</g>
+<text x="750" y="735" text-anchor="middle" fill="#74756c" font-family="Heebo,Arial,sans-serif" font-size="18">המחשה מושגית בלבד — לא נתונים מספריים ולא תחזית לכל מצב חירום</text>
+</svg>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 900" role="img" aria-labelledby="t d">
+<title id="t">חמשת השלבים של התערבות צופה מהצד</title><desc id="d">תרשים של חמישה שלבים רצופים: הבחנה, פירוש כחירום, קבלת אחריות, ידיעה כיצד לעזור וביצוע הפעולה.</desc>
+<rect width="1500" height="900" fill="#f3efe6"/>
+<text x="750" y="85" text-anchor="middle" fill="#20251f" font-family="Heebo,Arial,sans-serif" font-size="46" font-weight="700">שרשרת העזרה: חמישה שערים בדרך לפעולה</text>
+<text x="750" y="130" text-anchor="middle" fill="#74756c" font-family="Heebo,Arial,sans-serif" font-size="23">כל שלב מאפשר את הבא אחריו — וכל חסם עלול לעצור את התהליך</text>
+<g>
+<rect x="1180" y="235" width="230" height="300" rx="18" fill="#294638"/>
+<rect x="900" y="235" width="230" height="300" rx="18" fill="#e9e3d7" stroke="#c5a16b" stroke-width="3"/>
+<rect x="620" y="235" width="230" height="300" rx="18" fill="#e9e3d7" stroke="#c5a16b" stroke-width="3"/>
+<rect x="340" y="235" width="230" height="300" rx="18" fill="#e9e3d7" stroke="#c5a16b" stroke-width="3"/>
+<rect x="60" y="235" width="230" height="300" rx="18" fill="#a34e36"/>
+</g>
+<g font-family="Heebo,Arial,sans-serif" text-anchor="middle">
+<g fill="#c5a16b" font-size="27" font-weight="700"><text x="1295" y="290">01</text><text x="1015" y="290">02</text><text x="735" y="290">03</text><text x="455" y="290">04</text><text x="175" y="290">05</text></g>
+<g font-size="27" font-weight="700"><text x="1295" y="360" fill="#f3efe6">להבחין</text><text x="1015" y="360" fill="#294638">לפרש כחירום</text><text x="735" y="360" fill="#294638">לקבל אחריות</text><text x="455" y="360" fill="#294638">לדעת איך לעזור</text><text x="175" y="360" fill="#f3efe6">לפעול</text></g>
+<g font-size="18"><text x="1295" y="420" fill="#d9e0d9">לשים לב שמשהו</text><text x="1295" y="448" fill="#d9e0d9">חריג מתרחש</text><text x="1015" y="420" fill="#59645c">להבין שזה מצב</text><text x="1015" y="448" fill="#59645c">שדורש התערבות</text><text x="735" y="420" fill="#59645c">לא להניח שמישהו</text><text x="735" y="448" fill="#59645c">אחר יטפל</text><text x="455" y="420" fill="#59645c">לבחור פעולה</text><text x="455" y="448" fill="#59645c">אפשרית ובטוחה</text><text x="175" y="420" fill="#f8e9e3">להוציא את</text><text x="175" y="448" fill="#f8e9e3">ההחלטה לפועל</text></g>
+</g>
+<g stroke="#a34e36" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round">
+<path d="M1170 385H1145l18-18m-18 18 18 18"/><path d="M890 385H865l18-18m-18 18 18 18"/><path d="M610 385H585l18-18m-18 18 18 18"/><path d="M330 385H305l18-18m-18 18 18 18"/>
+</g>
+<path d="M750 590V650" stroke="#a34e36" stroke-width="4" stroke-dasharray="8 10"/>
+<rect x="380" y="665" width="740" height="115" rx="18" fill="#e9e3d7" stroke="#d5cec0" stroke-width="2"/>
+<text x="750" y="710" text-anchor="middle" fill="#a34e36" font-family="Heebo,Arial,sans-serif" font-size="26" font-weight="700">אם אחד השערים נסגר — הפעולה עלולה להיעצר</text>
+<text x="750" y="750" text-anchor="middle" fill="#59645c" font-family="Heebo,Arial,sans-serif" font-size="20">עמימות · פיזור אחריות · חוסר מיומנות · חשש מהערכה</text>
+<text x="750" y="850" text-anchor="middle" fill="#74756c" font-family="Heebo,Arial,sans-serif" font-size="17">המחשה מקורית למודל של לטאנה ודרלי</text>
+</svg>
