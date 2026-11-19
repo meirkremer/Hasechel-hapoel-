@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+<title id="title">שכבות של כתב יד: הפלימפססט של ארכימדס</title>
+<desc id="desc">איור מערכתי מקורי של דף קלף, שכבות כתב יווני ותפילה, קרני אור ספקטרליות ושרטוט גאומטרי.</desc>
+<defs>
+ <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f8f0dc"/><stop offset="1" stop-color="#d8c8a7"/></linearGradient>
+ <linearGradient id="beam" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#294638" stop-opacity="0"/><stop offset=".45" stop-color="#294638" stop-opacity=".5"/><stop offset="1" stop-color="#a34e36" stop-opacity="0"/></linearGradient>
+ <pattern id="grain" width="32" height="32" patternUnits="userSpaceOnUse"><circle cx="4" cy="7" r="1" fill="#806d50" opacity=".16"/><circle cx="23" cy="21" r=".8" fill="#806d50" opacity=".13"/></pattern>
+</defs>
+<rect width="1200" height="720" fill="#e9e3d7"/>
+<rect x="52" y="50" width="1096" height="620" rx="5" fill="#294638"/>
+<path d="M155 118 Q560 72 1035 130 L1010 598 Q590 640 180 586Z" fill="url(#paper)" stroke="#c5a16b" stroke-width="3"/>
+<path d="M155 118 Q560 72 1035 130 L1010 598 Q590 640 180 586Z" fill="url(#grain)"/>
+<g opacity=".66" fill="none" stroke="#77654c" stroke-width="3">
+ <path d="M250 208 Q560 175 930 205"/><path d="M245 250 Q570 218 935 248"/><path d="M240 292 Q570 260 930 290"/><path d="M235 334 Q580 300 930 330"/><path d="M230 376 Q570 345 925 370"/>
+ <path d="M225 418 Q560 385 920 410"/><path d="M220 460 Q570 430 915 452"/>
+</g>
+<g fill="#a34e36" opacity=".68" font-family="Georgia,serif" font-size="30">
+ <text x="275" y="202" transform="rotate(-4 275 202)">ΕΙΣ ΤΗΝ ΣΦΑΙΡΑΝ ΚΑΙ ΤΟΝ ΚΥΛΙΝΔΡΟΝ</text>
+ <text x="310" y="286" transform="rotate(-4 310 286)">ΠΡΟΤΑΣΙΣ · ΓΕΩΜΕΤΡΙΑ · ΑΠΟΔΕΙΞΙΣ</text>
+</g>
+<g fill="#294638" opacity=".45" font-family="Georgia,serif" font-size="25">
+ <text x="270" y="250" transform="rotate(-4 270 250)">ΚΥΡΙΕ ΕΛΕΗΣΟΝ · ΚΥΡΙΕ ΕΛΕΗΣΟΝ</text>
+ <text x="320" y="370" transform="rotate(-4 320 370)">ΕΥΧΗ ΚΑΙ ΜΝΗΜΗ · ΓΡΑΜΜΑ ΚΑΙ ΣΧΗΜΑ</text>
+ <text x="260" y="450" transform="rotate(-4 260 450)">ΚΥΡΙΕ ΕΛΕΗΣΟΝ · ΚΥΡΙΕ ΕΛΕΗΣΟΝ</text>
+</g>
+<g transform="translate(700 360)" fill="none" stroke="#294638" stroke-width="5" opacity=".86">
+ <circle cx="0" cy="0" r="112"/><path d="M-112 0H112 M0 -112V112 M-79 -79L79 79 M-79 79L79 -79"/>
+ <path d="M-112 0 A112 112 0 0 1 0 -112" stroke="#a34e36" stroke-width="9"/>
+</g>
+<g opacity=".8">
+ <path d="M110 530 L1090 180" stroke="url(#beam)" stroke-width="65"/>
+ <path d="M110 565 L1090 215" stroke="#a34e36" stroke-width="3" stroke-dasharray="12 12" opacity=".5"/>
+</g>
+<g font-family="Arial,sans-serif" fill="#f3efe6">
+ <text x="1080" y="110" text-anchor="end" font-size="20" letter-spacing="4">THE ARCHIMEDES PALIMPSEST</text>
+ <text x="1080" y="625" text-anchor="end" font-size="18" opacity=".75">שכבה אחר שכבה · כתב · מחיקה · גילוי</text>
+</g>
+</svg>
