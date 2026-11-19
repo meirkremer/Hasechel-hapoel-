@@ -96,3 +96,30 @@
   .story-card { grid-template-columns: 1fr; }
   .visual-math { height: 170px; }
 }
+
+
+/* Typography system: Noto Serif Hebrew + Assistant, with an airy editorial rhythm */
+:root {
+  --serif: "Noto Serif Hebrew", Georgia, serif;
+  --sans: "Assistant", Arial, sans-serif;
+}
+body { font-family: var(--sans); }
+.brand-words strong, .brand-mark, .section-heading h2, .lead-copy h3,
+.story-card-copy h3, .editor-note h3, .domain-grid h3, .about blockquote,
+.about-signature, .footer-brand, .hero h1 {
+  font-family: var(--serif);
+}
+.section-heading h2 { line-height: 1.28; }
+.lead-copy h3 { line-height: 1.38; }
+.story-card-copy h3 { line-height: 1.42; font-weight: 500; }
+.story-dek, .story-card-copy > p:not(.category), .editor-note > p:last-child,
+.domain-grid p, .about-bottom > p {
+  line-height: 2.05;
+}
+.story-card-copy { padding: 9px 5px; }
+.story-card-copy .category { line-height: 1.9; }
+.lead-copy { padding-top: 25px; padding-bottom: 25px; }
+@media (max-width: 560px) {
+  .story-card-copy h3 { line-height: 1.38; }
+  .lead-copy h3 { line-height: 1.32; }
+}
