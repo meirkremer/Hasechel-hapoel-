@@ -249,3 +249,55 @@ footer{padding-right:max(34px,calc((100vw - 1160px)/2));padding-left:max(34px,ca
  .about-inner blockquote{font-size:42px}
 }
 @media(max-width:370px){.site-header nav{gap:8px}.site-header nav a{font-size:9px}.story-card{grid-template-columns:1fr}.visual-math{height:175px}}
+
+
+/* Consistent page gutters: prevent content from touching viewport edges */
+html, body {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: clip;
+}
+.site-header,
+.home-hero,
+.hero,
+.section,
+.content-section,
+.internet-inner,
+.subjects-inner,
+.about-inner {
+  width: calc(100% - clamp(36px, 8vw, 112px));
+  max-width: 1160px;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+}
+.article-wrap,
+.article {
+  width: calc(100% - clamp(36px, 8vw, 80px));
+  max-width: 760px;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+}
+footer {
+  padding-left: max(clamp(18px, 4vw, 56px), calc((100vw - 1160px) / 2));
+  padding-right: max(clamp(18px, 4vw, 56px), calc((100vw - 1160px) / 2));
+}
+@media (max-width: 560px) {
+  .site-header,
+  .home-hero,
+  .hero,
+  .section,
+  .content-section,
+  .internet-inner,
+  .subjects-inner,
+  .about-inner {
+    width: calc(100% - 36px);
+  }
+  .article-wrap,
+  .article {
+    width: calc(100% - 36px);
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
