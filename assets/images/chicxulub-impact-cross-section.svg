@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="t d">
+<title id="t">חתך המחשה של מכתש פגיעה גדול</title>
+<desc id="d">איור חתך מושגי של פגיעת אסטרואיד בים רדוד: שקע פגיעה, טבעת פסגה, סלע מותך וסלעי קרום שהתרוממו ונשברו.</desc>
+<defs>
+ <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#dfe7e1"/><stop offset="1" stop-color="#f3efe6"/></linearGradient>
+ <linearGradient id="sea" x2="0" y2="1"><stop stop-color="#789b9a"/><stop offset="1" stop-color="#416b70"/></linearGradient>
+ <linearGradient id="rock" x2="0" y2="1"><stop stop-color="#c5a77a"/><stop offset="1" stop-color="#8e7657"/></linearGradient>
+ <linearGradient id="melt" x2="0" y2="1"><stop stop-color="#c76b43"/><stop offset="1" stop-color="#873d31"/></linearGradient>
+ <radialGradient id="glow"><stop stop-color="#f6d28c" stop-opacity=".95"/><stop offset="1" stop-color="#d26b43" stop-opacity="0"/></radialGradient>
+ <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="4" cy="4" r="2" fill="#4d554c" opacity=".28"/></pattern>
+</defs>
+<rect width="1600" height="900" fill="url(#sky)"/>
+<circle cx="1240" cy="160" r="180" fill="url(#glow)"/>
+<path d="M0 320 Q250 305 450 320 T900 320 T1600 315 L1600 900 L0 900Z" fill="url(#rock)"/>
+<path d="M0 320 Q250 305 450 320 T900 320 T1600 315 L1600 410 Q1250 400 1050 440 Q880 480 800 485 Q720 480 550 440 Q350 400 0 410Z" fill="url(#sea)" opacity=".95"/>
+<path d="M0 410 Q350 398 550 442 Q720 480 800 485 Q880 480 1050 442 Q1250 400 1600 410 L1600 470 Q1260 455 1080 500 Q900 548 800 555 Q700 548 520 500 Q340 455 0 470Z" fill="#9b8668"/>
+<path d="M0 470 Q340 455 520 500 Q700 548 800 555 Q900 548 1080 500 Q1260 455 1600 470 L1600 620 Q1200 610 1030 655 Q890 690 800 695 Q710 690 570 655 Q400 610 0 620Z" fill="#b49a70"/>
+<path d="M0 620 Q400 610 570 655 Q710 690 800 695 Q890 690 1030 655 Q1200 610 1600 620 L1600 900 L0 900Z" fill="#806d55"/>
+<path d="M0 710 Q420 690 570 730 Q720 770 800 770 Q880 770 1030 730 Q1180 690 1600 710 L1600 900 L0 900Z" fill="#6e7569" opacity=".7"/>
+<path d="M430 340 Q555 350 630 430 Q700 505 800 520 Q900 505 970 430 Q1045 350 1170 340" fill="none" stroke="#e4c38a" stroke-width="20" stroke-linecap="round" opacity=".9"/>
+<path d="M530 350 Q630 420 685 510 Q740 600 800 615 Q860 600 915 510 Q970 420 1070 350" fill="none" stroke="url(#melt)" stroke-width="38" stroke-linecap="round"/>
+<path d="M600 400 Q700 540 800 565 Q900 540 1000 400" fill="none" stroke="#f0a05f" stroke-width="12" stroke-linecap="round" stroke-dasharray="12 16"/>
+<path d="M675 620 L760 525 L800 495 L840 525 L925 620" fill="none" stroke="#e0c69a" stroke-width="18" opacity=".8"/>
+<path d="M705 665 L770 590 L800 575 L830 590 L895 665" fill="none" stroke="#c5b18d" stroke-width="10" stroke-dasharray="10 12"/>
+<g opacity=".5"><path d="M0 520 L1600 520" stroke="#f1dfbd" stroke-width="2"/><path d="M0 600 L1600 600" stroke="#f1dfbd" stroke-width="2"/><path d="M0 690 L1600 690" stroke="#f1dfbd" stroke-width="2"/></g>
+<g transform="translate(770 40) rotate(26)">
+ <path d="M-34 -20 L-4 -42 L34 -22 L43 12 L13 42 L-29 28 L-46 0Z" fill="#625b51" stroke="#373d39" stroke-width="5"/>
+ <path d="M-20 -15 L-3 -29 L14 -18 L24 3 L5 23 L-19 12Z" fill="#9c8971"/>
+ <path d="M-3 48 L-30 128 M12 48 L36 135 M-30 36 L-82 104 M28 35 L86 95" stroke="#c86a45" stroke-width="10" stroke-linecap="round" opacity=".7"/>
+</g>
+<g fill="#283b36" font-family="Assistant,Arial,sans-serif" font-weight="700">
+ <text x="1500" y="95" font-size="28" text-anchor="end">מכתש פגיעה — חתך מושגי</text>
+ <text x="1500" y="132" font-size="18" text-anchor="end" font-weight="400">המחשה, לא בקנה מידה</text>
+ <text x="1470" y="290" font-size="23" text-anchor="end">ים רדוד</text>
+ <text x="1300" y="510" font-size="22" text-anchor="end">טבעת הפסגה</text>
+ <text x="800" y="740" font-size="23" text-anchor="middle">סלעי קרום שעברו הלם, שבר והתרוממות</text>
+ <text x="800" y="655" font-size="20" text-anchor="middle" fill="#f7e8ce">סלע מותך וברקציה</text>
+</g>
+<g stroke="#283b36" stroke-width="3" fill="none" opacity=".8">
+ <path d="M1330 300 L1260 390 L1170 430"/>
+ <path d="M1160 515 L1090 515 L1030 485"/>
+ <path d="M800 715 L800 680"/>
+</g>
+<g fill="#f3efe6" opacity=".85"><rect x="35" y="35" width="390" height="60" rx="10"/><text x="405" y="74" text-anchor="end" font-family="Assistant,Arial,sans-serif" font-size="20" fill="#294638">איור מקורי · השכל הפועל</text></g>
+</svg>
