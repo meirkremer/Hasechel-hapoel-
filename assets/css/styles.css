@@ -301,3 +301,27 @@ footer {
     padding-right: 0;
   }
 }
+
+
+/* African Storybook article: consistent readable gutters on every viewport */
+.african-storybook-article {
+  width: min(760px, calc(100% - clamp(40px, 8vw, 112px)));
+  max-width: 760px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0;
+  padding-right: 0;
+  box-sizing: border-box;
+}
+@media (max-width: 720px) {
+  .african-storybook-article {
+    width: calc(100% - 40px);
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+@media (max-width: 560px) {
+  .african-storybook-article {
+    width: calc(100% - 36px);
+  }
+}
