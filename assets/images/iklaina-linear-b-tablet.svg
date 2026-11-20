@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+<title id="title">איקליינה וארמון נסטור: שני מרכזים לפני ממלכת פילוס</title>
+<desc id="desc">תרשים מושגי המציג שני מרכזי יישוב מיקניים, לוח חרס קטן בכתב לינאר B, וקשר מדיני אפשרי של איחוד מאוחר ביניהם.</desc>
+<defs>
+  <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f6f1e7"/><stop offset="1" stop-color="#e9e1d2"/></linearGradient>
+  <linearGradient id="tablet" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#d8b987"/><stop offset="1" stop-color="#b98754"/></linearGradient>
+  <pattern id="grain" width="18" height="18" patternUnits="userSpaceOnUse"><circle cx="3" cy="4" r="1" fill="#a98d69" opacity=".16"/><circle cx="13" cy="12" r=".8" fill="#a98d69" opacity=".14"/></pattern>
+  <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#a34e36"/></marker>
+</defs>
+<rect width="1200" height="760" fill="url(#paper)"/>
+<rect width="1200" height="760" fill="url(#grain)"/>
+<text x="1100" y="82" text-anchor="end" direction="rtl" font-family="Assistant,Arial,sans-serif" font-size="22" letter-spacing="2" fill="#8a6d3b">היסטוריה של מוסדות ושלטון</text>
+<text x="1100" y="145" text-anchor="end" direction="rtl" font-family="Noto Serif Hebrew,Georgia,serif" font-size="48" font-weight="600" fill="#20251f">שני מרכזים, ממלכה אחת?</text>
+<path d="M100 178H1100" stroke="#cfc5b3" stroke-width="2"/>
+<g transform="translate(90 230)">
+  <rect x="0" y="0" width="390" height="300" rx="8" fill="#294638"/>
+  <text x="345" y="48" text-anchor="end" direction="rtl" font-family="Noto Serif Hebrew,Georgia,serif" font-size="32" fill="#f3efe6">איקליינה</text>
+  <text x="345" y="78" text-anchor="end" direction="rtl" font-family="Assistant,Arial,sans-serif" font-size="17" fill="#d7d2c6">מרכז יישוב מיקני</text>
+  <path d="M54 214H332" stroke="#aeb9a8" stroke-width="3" opacity=".65"/>
+  <path d="M75 211V155L105 126L136 155V211M149 211V139L183 107L216 139V211M230 211V164L260 136L291 164V211" fill="none" stroke="#e3d6bd" stroke-width="8" stroke-linejoin="round"/>
+  <path d="M65 154H145M139 138H223M221 163H301" stroke="#c5a16b" stroke-width="8"/>
+  <path d="M86 211V183H122V211M161 211V173H202V211M242 211V188H278V211" fill="#a34e36" opacity=".85"/>
+  <path d="M45 236H340M45 249H340" stroke="#819987" stroke-width="2" stroke-dasharray="5 7"/>
+  <text x="345" y="282" text-anchor="end" direction="rtl" font-family="Assistant,Arial,sans-serif" font-size="16" fill="#f3efe6">מבני ציבור · תשתיות · כתיבה מנהלית</text>
+</g>
+<g transform="translate(720 230)">
+  <rect x="0" y="0" width="390" height="300" rx="8" fill="#e4d9c7" stroke="#c8baa4" stroke-width="2"/>
+  <text x="345" y="48" text-anchor="end" direction="rtl" font-family="Noto Serif Hebrew,Georgia,serif" font-size="30" fill="#20251f">אנו אנגליאנוס</text>
+  <text x="345" y="78" text-anchor="end" direction="rtl" font-family="Assistant,Arial,sans-serif" font-size="17" fill="#596259">ארמון נסטור · ארכיון גדול</text>
+  <path d="M50 214H340" stroke="#b8aa94" stroke-width="3"/>
+  <path d="M65 211V142H326V211M92 142V113H299V142M112 113V94H279V113" fill="none" stroke="#294638" stroke-width="8"/>
+  <path d="M76 142L94 121L112 142M134 142L152 121L170 142M192 142L210 121L228 142M250 142L268 121L286 142" fill="none" stroke="#a34e36" stroke-width="5"/>
+  <path d="M93 211V169H133V211M158 211V169H198V211M223 211V169H263V211" fill="#c5a16b" opacity=".9"/>
+  <g transform="translate(288 174) rotate(-7)">
+    <rect x="0" y="0" width="30" height="48" rx="3" fill="#b98754"/>
+    <path d="M6 11H24M6 19H21M6 28H23M6 36H17" stroke="#6f5034" stroke-width="2"/>
+  </g>
+  <text x="345" y="282" text-anchor="end" direction="rtl" font-family="Assistant,Arial,sans-serif" font-size="16" fill="#596259">רשומות על משאבים, עובדים וסחורות</text>
+</g>
+<g>
+  <path d="M492 363H708" stroke="#a34e36" stroke-width="4" stroke-dasharray="9 9" marker-end="url(#arrow)"/>
+  <circle cx="600" cy="363" r="42" fill="#f3efe6" stroke="#a34e36" stroke-width="2"/>
+  <text x="600" y="378" text-anchor="middle" font-family="Georgia,serif" font-size="48" fill="#a34e36">?</text>
+  <text x="600" y="427" text-anchor="middle" direction="rtl" font-family="Assistant,Arial,sans-serif" font-size="17" font-weight="600" fill="#8c4935">איחוד מאוחר?</text>
+</g>
+<g transform="translate(475 485)">
+  <rect x="0" y="0" width="250" height="116" rx="10" fill="url(#tablet)" stroke="#8d6742" stroke-width="2" transform="rotate(-4 125 58)"/>
+  <path d="M30 35L62 30M82 27L112 25M132 31L170 27M52 61L86 58M108 60L140 56M161 64L192 60M75 85L110 82M128 87L160 83" stroke="#6f5034" stroke-width="5" stroke-linecap="round" opacity=".85"/>
+  <path d="M30 35L62 30M82 27L112 25M132 31L170 27M52 61L86 58M108 60L140 56M161 64L192 60M75 85L110 82M128 87L160 83" stroke="#e6c99d" stroke-width="1.5" stroke-linecap="round" opacity=".7"/>
+</g>
+<text x="600" y="638" text-anchor="middle" direction="rtl" font-family="Assistant,Arial,sans-serif" font-size="19" fill="#3b463d">שבר לוח בכתב לינאר B: סימן הברתי אחד בכל צד, וסימנים שאולי הם מספרים</text>
+<path d="M100 677H1100" stroke="#cfc5b3" stroke-width="2"/>
+<text x="1100" y="714" text-anchor="end" direction="rtl" font-family="Assistant,Arial,sans-serif" font-size="16" fill="#6e756c">התרשים מציג מודל אפשרי בלבד — לא מפה ולא שחזור ארכאולוגי</text>
+</svg>
