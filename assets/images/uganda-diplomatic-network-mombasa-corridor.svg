@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="660" viewBox="0 0 1200 660" role="img" aria-labelledby="title desc">
+<title id="title">המסדרון הצפוני ממומבסה לאוגנדה</title>
+<desc id="desc">תרשים מקורי סכמטי של נתיב מסחר מן הנמל במומבסה דרך ניירובי ומעבר מלבה אל קמפלה שבאוגנדה.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f8f5ee"/><stop offset="1" stop-color="#e8e1d4"/></linearGradient>
+  <marker id="arrow" markerWidth="12" markerHeight="12" refX="8" refY="6" orient="auto"><path d="M0 0 L10 6 L0 12Z" fill="#a34e36"/></marker>
+</defs>
+<rect width="1200" height="660" fill="url(#bg)"/>
+<text x="1100" y="70" text-anchor="end" direction="rtl" font-family="Assistant,Arial,sans-serif" font-size="18" fill="#9b684b" letter-spacing="2">השכל הפועל · המחשה מקורית</text>
+<text x="1100" y="125" text-anchor="end" direction="rtl" font-family="Noto Serif Hebrew,Georgia,serif" font-size="42" font-weight="700" fill="#20251f">הדרך אל הים עוברת דרך שכנים</text>
+<text x="1100" y="165" text-anchor="end" direction="rtl" font-family="Assistant,Arial,sans-serif" font-size="20" fill="#687168">המסדרון הצפוני: נמל, גבול, כבישים ומסילות — מערכת אזורית אחת</text>
+<path d="M0 250 C110 210 220 290 320 245 S520 220 620 260 L620 660 L0 660Z" fill="#dbe6e3"/>
+<path d="M0 305 C90 270 170 330 250 300 S420 270 520 315" fill="none" stroke="#8baea8" stroke-width="4" opacity=".8"/>
+<path d="M0 350 C90 315 170 375 250 345 S420 315 520 360" fill="none" stroke="#8baea8" stroke-width="4" opacity=".8"/>
+<path d="M0 395 C90 360 170 420 250 390 S420 360 520 405" fill="none" stroke="#8baea8" stroke-width="4" opacity=".8"/>
+<path d="M270 470 C410 410 500 470 610 410 S820 360 1010 390" fill="none" stroke="#c5a16b" stroke-width="20" stroke-linecap="round" opacity=".45"/>
+<path d="M270 470 C410 410 500 470 610 410 S820 360 1010 390" fill="none" stroke="#a34e36" stroke-width="5" stroke-linecap="round" marker-end="url(#arrow)"/>
+<path d="M270 490 C410 430 500 490 610 430 S820 380 1010 410" fill="none" stroke="#294638" stroke-width="2.5" stroke-dasharray="10 10" opacity=".75"/>
+<g transform="translate(80 205)">
+  <rect x="0" y="55" width="150" height="92" rx="5" fill="#294638"/>
+  <rect x="13" y="20" width="43" height="40" fill="#a34e36"/><rect x="61" y="20" width="43" height="40" fill="#c5a16b"/><rect x="109" y="20" width="30" height="40" fill="#6d8878"/>
+  <path d="M-5 150 H165" stroke="#294638" stroke-width="6"/>
+  <text x="75" y="185" text-anchor="middle" direction="rtl" font-family="Noto Serif Hebrew,Georgia,serif" font-size="27" font-weight="700" fill="#20251f">מומבסה</text>
+  <text x="75" y="213" text-anchor="middle" direction="rtl" font-family="Assistant,Arial,sans-serif" font-size="16" fill="#687168">נמל ימי בקניה</text>
+</g>
+<g font-family="Assistant,Arial,sans-serif" text-anchor="middle" direction="rtl">
+  <g><circle cx="420" cy="435" r="37" fill="#f8f5ee" stroke="#294638" stroke-width="4"/><text x="420" y="500" font-family="Noto Serif Hebrew,Georgia,serif" font-size="26" font-weight="700" fill="#20251f">ניירובי</text><text x="420" y="528" font-size="16" fill="#687168">מרכז אזורי</text></g>
+  <g><circle cx="690" cy="395" r="37" fill="#f8f5ee" stroke="#294638" stroke-width="4"/><text x="690" y="460" font-family="Noto Serif Hebrew,Georgia,serif" font-size="26" font-weight="700" fill="#20251f">מלבה</text><text x="690" y="488" font-size="16" fill="#687168">מעבר גבול</text></g>
+  <g><circle cx="1010" cy="390" r="55" fill="#294638" stroke="#c5a16b" stroke-width="5"/><text x="1010" y="386" font-family="Noto Serif Hebrew,Georgia,serif" font-size="29" font-weight="700" fill="#f8f5ee">קמפלה</text><text x="1010" y="417" font-size="16" fill="#e4d9c7">אוגנדה</text></g>
+</g>
+<g transform="translate(755 555)">
+  <rect x="0" y="0" width="320" height="58" rx="12" fill="#f8f5ee" stroke="#d5cec0"/>
+  <text x="160" y="24" text-anchor="middle" direction="rtl" font-family="Assistant,Arial,sans-serif" font-size="17" fill="#294638" font-weight="700">מסדרון רב־אמצעי</text>
+  <text x="160" y="45" text-anchor="middle" direction="rtl" font-family="Assistant,Arial,sans-serif" font-size="14" fill="#687168">ים · כביש · מסילה · מכס</text>
+</g>
+<text x="600" y="625" text-anchor="middle" direction="rtl" font-family="Assistant,Arial,sans-serif" font-size="16" fill="#73766c">המחשה סכמטית בלבד — לא מפה מדויקת ולא מסלול יחיד</text>
+</svg>

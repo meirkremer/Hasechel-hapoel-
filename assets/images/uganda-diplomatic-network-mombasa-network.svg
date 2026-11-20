@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+<title id="title">רשת הנציגויות של אוגנדה</title>
+<desc id="desc">תרשים סכמטי המחבר את קמפלה למומבסה, ניירובי, ג'ובה, אדיס אבבה, בריסל, ניו יורק, וושינגטון, בייג'ינג וניו דלהי. מומבסה מודגשת כקונסוליה בנמל.</desc>
+<defs>
+  <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f8f5ee"/><stop offset="1" stop-color="#e8e1d4"/></linearGradient>
+  <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#283b30" flood-opacity=".12"/></filter>
+</defs>
+<rect width="1200" height="760" fill="url(#paper)"/>
+<path d="M0 620 C180 570 270 680 450 635 S780 575 960 640 S1100 680 1200 625 L1200 760 L0 760Z" fill="#e3dccf" opacity=".45"/>
+<text x="1100" y="72" text-anchor="end" direction="rtl" font-family="Assistant,Arial,sans-serif" font-size="18" fill="#9b684b" letter-spacing="2">השכל הפועל · המחשה מקורית</text>
+<text x="1100" y="130" text-anchor="end" direction="rtl" font-family="Noto Serif Hebrew,Georgia,serif" font-size="42" font-weight="700" fill="#20251f">מדינה כרשת, לא רק כגבול</text>
+<text x="1100" y="168" text-anchor="end" direction="rtl" font-family="Assistant,Arial,sans-serif" font-size="20" fill="#687168">כמה מוקדי נוכחות דיפלומטית של אוגנדה — בתרשים סכמטי</text>
+<g fill="none" stroke="#9ba99d" stroke-width="3" opacity=".9">
+  <path d="M600 390 L170 350"/><path d="M600 390 L260 555"/><path d="M600 390 L315 205"/>
+  <path d="M600 390 L600 210"/><path d="M600 390 L825 220"/><path d="M600 390 L900 385"/>
+  <path d="M600 390 L1000 545"/><path d="M600 390 L1005 175"/><path d="M600 390 L1015 330"/>
+  <path d="M600 390 L760 555"/>
+</g>
+<g fill="none" stroke="#a34e36" stroke-width="4" stroke-dasharray="10 10">
+  <path d="M600 390 L315 205"/><path d="M600 390 L170 350"/><path d="M600 390 L600 210"/>
+</g>
+<g filter="url(#shadow)">
+  <circle cx="600" cy="390" r="112" fill="#294638"/>
+  <circle cx="600" cy="390" r="96" fill="none" stroke="#c5a16b" stroke-width="1.5"/>
+</g>
+<text x="600" y="370" text-anchor="middle" direction="rtl" font-family="Noto Serif Hebrew,Georgia,serif" font-size="36" font-weight="700" fill="#f5f0e6">אוגנדה</text>
+<text x="600" y="415" text-anchor="middle" direction="rtl" font-family="Assistant,Arial,sans-serif" font-size="22" fill="#e0d8c9">קמפלה</text>
+<g font-family="Assistant,Arial,sans-serif" text-anchor="middle" direction="rtl">
+  <g><circle cx="170" cy="350" r="57" fill="#f8f5ee" stroke="#294638" stroke-width="3"/><text x="170" y="346" font-size="23" font-weight="700" fill="#294638">ניו יורק</text><text x="170" y="375" font-size="14" fill="#687168">האו״ם</text></g>
+  <g><circle cx="260" cy="555" r="53" fill="#f8f5ee" stroke="#294638" stroke-width="3"/><text x="260" y="551" font-size="22" font-weight="700" fill="#294638">וושינגטון</text><text x="260" y="578" font-size="14" fill="#687168">ארצות הברית</text></g>
+  <g><circle cx="315" cy="205" r="56" fill="#f8f5ee" stroke="#294638" stroke-width="3"/><text x="315" y="201" font-size="23" font-weight="700" fill="#294638">בריסל</text><text x="315" y="230" font-size="14" fill="#687168">האיחוד האירופי</text></g>
+  <g><circle cx="600" cy="210" r="56" fill="#f8f5ee" stroke="#294638" stroke-width="3"/><text x="600" y="206" font-size="21" font-weight="700" fill="#294638">אדיס אבבה</text><text x="600" y="235" font-size="14" fill="#687168">האיחוד האפריקאי</text></g>
+  <g><circle cx="825" cy="220" r="50" fill="#f8f5ee" stroke="#294638" stroke-width="3"/><text x="825" y="216" font-size="23" font-weight="700" fill="#294638">ג׳ובה</text><text x="825" y="245" font-size="14" fill="#687168">דרום סודאן</text></g>
+  <g><circle cx="900" cy="385" r="53" fill="#f8f5ee" stroke="#294638" stroke-width="3"/><text x="900" y="381" font-size="23" font-weight="700" fill="#294638">ניירובי</text><text x="900" y="410" font-size="14" fill="#687168">קניה</text></g>
+  <g><circle cx="1005" cy="175" r="52" fill="#f8f5ee" stroke="#294638" stroke-width="3"/><text x="1005" y="171" font-size="23" font-weight="700" fill="#294638">בייג׳ינג</text><text x="1005" y="200" font-size="14" fill="#687168">סין</text></g>
+  <g><circle cx="1015" cy="330" r="52" fill="#f8f5ee" stroke="#294638" stroke-width="3"/><text x="1015" y="326" font-size="23" font-weight="700" fill="#294638">ניו דלהי</text><text x="1015" y="355" font-size="14" fill="#687168">הודו</text></g>
+  <g><circle cx="760" cy="555" r="50" fill="#f8f5ee" stroke="#294638" stroke-width="3"/><text x="760" y="551" font-size="23" font-weight="700" fill="#294638">ארושה</text><text x="760" y="580" font-size="14" fill="#687168">מוסדות אזוריים</text></g>
+</g>
+<g filter="url(#shadow)">
+  <circle cx="1000" cy="545" r="72" fill="#a34e36"/>
+  <circle cx="1000" cy="545" r="59" fill="none" stroke="#f0d6c6" stroke-width="1.5"/>
+</g>
+<text x="1000" y="535" text-anchor="middle" direction="rtl" font-family="Noto Serif Hebrew,Georgia,serif" font-size="27" font-weight="700" fill="#fff8ed">מומבסה</text>
+<text x="1000" y="568" text-anchor="middle" direction="rtl" font-family="Assistant,Arial,sans-serif" font-size="16" fill="#f7e1d4">קונסוליה בנמל</text>
+<text x="600" y="705" text-anchor="middle" direction="rtl" font-family="Assistant,Arial,sans-serif" font-size="17" fill="#73766c">הקווים אינם מציינים עוצמה או היקף פעילות; התרשים אינו מפה בקנה מידה</text>
+</svg>
