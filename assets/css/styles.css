@@ -325,3 +325,11 @@ footer {
     width: calc(100% - 36px);
   }
 }
+
+
+/* Brand identity: open book, growing knowledge tree and connected data nodes */
+.brand{width:236px;height:96px;flex:0 0 236px;background:url("../images/brand-lockup.svg") center/contain no-repeat;gap:0;}
+.brand .brand-mark,.brand .brand-words{display:none!important;}
+.brand:focus-visible{outline:2px solid #c18a32;outline-offset:4px;border-radius:6px;}
+@media(max-width:800px){.brand{width:190px;height:82px;flex-basis:190px;}}
+@media(max-width:560px){.brand{width:158px;height:72px;flex-basis:158px;}}
