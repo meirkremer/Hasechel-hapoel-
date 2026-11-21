@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+<title id="title">הגוף בתוך המים: תנועה ומדידה</title>
+<desc id="desc">איור המחשה רעיוני של שחיין במסלול, גלי מים, קווי תנועה וסימוני מדידה. אין זה צילום או שחזור של ברוך פרצמן.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#e8e1d4"/><stop offset="1" stop-color="#d7dfd7"/></linearGradient>
+  <linearGradient id="water" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#426b5a"/><stop offset="1" stop-color="#203e37"/></linearGradient>
+  <pattern id="grid" width="58" height="58" patternUnits="userSpaceOnUse"><path d="M58 0H0V58" fill="none" stroke="#647a6d" stroke-opacity=".16" stroke-width="1"/></pattern>
+</defs>
+<rect width="1600" height="1000" fill="url(#bg)"/><rect width="1600" height="1000" fill="url(#grid)"/>
+<path d="M0 650 C180 610 280 690 460 650 S740 610 920 650 1220 690 1600 635V1000H0Z" fill="url(#water)"/>
+<g fill="none" stroke="#d8e3d9" stroke-opacity=".55" stroke-width="3"><path d="M0 720 C150 680 260 760 420 720 S700 680 860 720 1160 760 1320 720 1490 690 1600 710"/><path d="M0 795 C170 755 280 835 450 795 S740 755 910 795 1190 835 1360 795 1500 770 1600 785"/><path d="M0 870 C170 830 300 910 470 870 S750 830 920 870 1200 910 1370 870 1500 850 1600 865"/></g>
+<g stroke="#b4c7b7" stroke-width="4" opacity=".72"><path d="M70 660V960M380 660V960M690 660V960M1000 660V960M1310 660V960" stroke-dasharray="18 22"/></g>
+<g transform="translate(0,-8)">
+  <path d="M560 568 C650 515 770 486 892 506 C970 518 1050 548 1122 584" fill="none" stroke="#f2eadb" stroke-width="70" stroke-linecap="round"/>
+  <path d="M630 550 C728 524 825 516 926 535" fill="none" stroke="#a34e36" stroke-width="18" stroke-linecap="round"/>
+  <circle cx="1152" cy="572" r="49" fill="#202b27"/><path d="M1117 577 C1067 574 1017 564 968 548" fill="none" stroke="#202b27" stroke-width="40" stroke-linecap="round"/>
+  <path d="M920 534 C873 475 846 428 825 382" fill="none" stroke="#202b27" stroke-width="34" stroke-linecap="round"/><path d="M824 382 C805 346 775 330 742 326" fill="none" stroke="#202b27" stroke-width="27" stroke-linecap="round"/>
+  <path d="M840 552 C800 590 760 617 715 642" fill="none" stroke="#202b27" stroke-width="28" stroke-linecap="round"/><path d="M713 642 C676 657 644 660 610 651" fill="none" stroke="#202b27" stroke-width="24" stroke-linecap="round"/>
+  <path d="M966 553 C1003 601 1039 623 1084 635" fill="none" stroke="#202b27" stroke-width="27" stroke-linecap="round"/>
+</g>
+<g fill="none" stroke="#a34e36" stroke-width="4" stroke-dasharray="10 12"><path d="M410 450 C570 365 720 355 850 390"/><path d="M850 390 C1000 420 1120 460 1230 510"/></g>
+<g fill="#294638" font-family="Assistant, Arial, sans-serif" direction="rtl" text-anchor="end"><text x="1500" y="145" font-size="38" font-weight="700">הגוף בתוך המים</text><text x="1500" y="198" font-size="23">תנועה · איזון · התנגדות</text></g>
+<g fill="#294638" font-family="Assistant, Arial, sans-serif" font-size="22"><text x="130" y="410">כיוון התנועה</text><text x="130" y="450" font-size="17" fill="#a34e36">המחשה רעיונית</text><text x="1490" y="930" text-anchor="end" fill="#f2eadb" font-size="18">לא צילום ולא שחזור של טכניקת שחייה אישית</text></g>
+<g stroke="#a34e36" stroke-width="3" fill="none"><path d="M150 470L300 535L430 535"/><path d="M1440 250V590M1420 250H1460M1420 590H1460"/></g>
+<g fill="#a34e36"><circle cx="430" cy="535" r="8"/><circle cx="1440" cy="590" r="8"/></g>
+</svg>
