@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+<title id="title">האתר זוכר: שכבות האש בהר הורה</title>
+<desc id="desc">איור סכמטי של הר הורה ומקלט סלע, חתך בשכבות אפר ופחם, ומדורת הקבורה מלפני כ-9500 שנה לצד ציר זמן של אירועי אש קדומים ומאוחרים.</desc>
+<defs>
+  <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f8f5ee"/><stop offset="1" stop-color="#e8e1d4"/></linearGradient>
+  <linearGradient id="mountain" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#89958a"/><stop offset="1" stop-color="#52695a"/></linearGradient>
+  <filter id="soft" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="7" stdDeviation="9" flood-color="#20251f" flood-opacity=".12"/></filter>
+</defs>
+<rect width="1200" height="760" fill="url(#paper)"/>
+<text x="1090" y="62" text-anchor="end" direction="rtl" font-family="Assistant,Arial,sans-serif" font-size="17" fill="#9b684b" letter-spacing="1.5">השכל הפועל · איור המחשה מקורי</text>
+<text x="1090" y="122" text-anchor="end" direction="rtl" font-family="Noto Serif Hebrew,Georgia,serif" font-size="42" font-weight="700" fill="#20251f">האתר זוכר: שכבות האש בהר הורה</text>
+<text x="1090" y="160" text-anchor="end" direction="rtl" font-family="Assistant,Arial,sans-serif" font-size="20" fill="#687168">מלאווי · לפני כ־9,500 שנה · Hora 1</text>
+
+<!-- Landscape and rock shelter -->
+<path d="M0 505 C120 475 215 485 305 450 C395 415 430 250 535 205 C600 177 640 250 685 320 C730 390 800 430 900 442 C1000 455 1100 475 1200 450 L1200 575 L0 575Z" fill="url(#mountain)" opacity=".96"/>
+<path d="M0 520 C150 492 220 515 330 482 C440 448 475 310 540 272 C590 242 625 300 660 352 C720 440 800 465 920 472 C1030 480 1120 492 1200 480 L1200 590 L0 590Z" fill="#294638" opacity=".32"/>
+<path d="M440 420 Q510 350 585 360 Q630 364 676 423 L645 448 Q590 420 545 425 Q492 431 458 458Z" fill="#20251f"/>
+<path d="M475 425 Q540 395 623 416" fill="none" stroke="#c5a16b" stroke-width="5" stroke-linecap="round"/>
+<path d="M0 548 C170 530 290 552 410 538 C520 525 655 552 785 539 C920 526 1050 551 1200 533 L1200 590 L0 590Z" fill="#d3c8b5"/>
+<text x="575" y="220" text-anchor="middle" direction="rtl" font-family="Assistant,Arial,sans-serif" font-size="22" font-weight="700" fill="#f3efe6">הר הורה</text>
+<text x="575" y="249" text-anchor="middle" direction="rtl" font-family="Assistant,Arial,sans-serif" font-size="15" fill="#f3efe6">מקלט סלע למרגלות מצוק גרניט</text>
+
+<!-- Fire / pyre schematic -->
+<g filter="url(#soft)">
+  <ellipse cx="555" cy="520" rx="96" ry="18" fill="#20251f" opacity=".22"/>
+  <path d="M495 505 L610 505 L630 524 L480 524Z" fill="#8d6950"/>
+  <path d="M500 497 L525 475 L548 500 L570 470 L596 501 L615 489 L628 510 L488 510Z" fill="#a34e36"/>
+  <path d="M526 486 C508 464 529 448 539 432 C545 453 563 459 554 481 C571 463 585 450 586 432 C608 458 606 478 590 495Z" fill="#c5a16b"/>
+  <path d="M542 484 C534 469 547 458 553 449 C560 465 573 474 563 489Z" fill="#f3efe6"/>
+</g>
+<text x="555" y="565" text-anchor="middle" direction="rtl" font-family="Assistant,Arial,sans-serif" font-size="16" fill="#294638" font-weight="700">מדורת קבורה</text>
+
+<!-- Callout lines -->
+<path d="M620 470 C700 420 735 370 800 342" fill="none" stroke="#a34e36" stroke-width="2.5"/>
+<circle cx="620" cy="470" r="5" fill="#a34e36"/>
+<rect x="790" y="250" width="310" height="132" rx="2" fill="#f8f5ee" stroke="#d5cec0"/>
+<text x="1070" y="286" text-anchor="end" direction="rtl" font-family="Noto Serif Hebrew,Georgia,serif" font-size="24" font-weight="700" fill="#294638">מה נשמר באפר?</text>
+<text x="1070" y="322" text-anchor="end" direction="rtl" font-family="Assistant,Arial,sans-serif" font-size="18" fill="#20251f">170 שברי עצם אדם</text>
+<text x="1070" y="350" text-anchor="end" direction="rtl" font-family="Assistant,Arial,sans-serif" font-size="18" fill="#20251f">לפחות 30 ק״ג של עץ ועשב</text>
+<text x="1070" y="374" text-anchor="end" direction="rtl" font-family="Assistant,Arial,sans-serif" font-size="14" fill="#74756c">בחלק מן העצמות נמדדו מעל 500°C</text>
+
+<!-- Stratigraphic section -->
+<rect x="80" y="610" width="1040" height="2" fill="#b9ad9b"/>
+<text x="1090" y="598" text-anchor="end" direction="rtl" font-family="Noto Serif Hebrew,Georgia,serif" font-size="22" font-weight="700" fill="#20251f">ציר זמן משוער של אירועי האש</text>
+<path d="M150 665 H1050" stroke="#7d887d" stroke-width="3" stroke-linecap="round"/>
+<path d="M150 665 H1050" stroke="#7d887d" stroke-width="1" stroke-dasharray="5 9"/>
+<g font-family="Assistant,Arial,sans-serif" direction="rtl" text-anchor="middle">
+  <circle cx="270" cy="665" r="10" fill="#8d6950"/>
+  <text x="270" y="640" font-size="17" font-weight="700" fill="#294638">כ־10,240</text>
+  <text x="270" y="702" font-size="15" fill="#687168">מדורות גדולות מוקדמות</text>
+  <circle cx="600" cy="665" r="13" fill="#a34e36"/>
+  <text x="600" y="640" font-size="17" font-weight="700" fill="#a34e36">9,540–9,454</text>
+  <text x="600" y="702" font-size="15" fill="#687168">מדורת הקבורה</text>
+  <circle cx="930" cy="665" r="10" fill="#c5a16b"/>
+  <text x="930" y="640" font-size="17" font-weight="700" fill="#294638">בתוך כ־400 שנה</text>
+  <text x="930" y="702" font-size="15" fill="#687168">בעירה גדולה נוספת</text>
+</g>
+<text x="1090" y="742" text-anchor="end" direction="rtl" font-family="Assistant,Arial,sans-serif" font-size="13" fill="#8a8174">הטווחים הם שנים קלנדריות לפני זמננו (BP); התרשים אינו בקנה מידה.</text>
+</svg>
