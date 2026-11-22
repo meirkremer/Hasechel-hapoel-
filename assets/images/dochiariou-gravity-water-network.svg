@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 820" role="img" aria-labelledby="title desc">
+<title id="title">רשת המים הכבידתית של מנזר דוכיאריו בהר אתוס</title>
+<desc id="desc">תרשים סכמטי המציג מקורות מים וגלריות תת קרקעיות במעלה ההר, תעלות המובילות מים בכוח הכבידה דרך שתי טחנות, מאגרים מדורגים ושני נתיבי חלוקה לצרכים ביתיים ולחקלאות ולמלאכה.</desc>
+<defs>
+  <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#e8e4d9"/><stop offset="1" stop-color="#f3efe6"/></linearGradient>
+  <linearGradient id="hill" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#a7a18b"/><stop offset="1" stop-color="#7f8874"/></linearGradient>
+  <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#376b69"/></marker>
+  <marker id="arrowRust" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#a34e36"/></marker>
+  <style>
+    .he{font-family:Assistant,Arial,sans-serif;fill:#20251f;direction:rtl;unicode-bidi:plaintext}
+    .small{font-size:22px}.mid{font-size:27px;font-weight:600}.big{font-size:35px;font-weight:700}
+    .water{fill:none;stroke:#376b69;stroke-width:9;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#arrow)}
+    .branch{fill:none;stroke:#a34e36;stroke-width:7;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#arrowRust)}
+    .thin{fill:none;stroke:#52665b;stroke-width:3;stroke-dasharray:8 8}
+  </style>
+</defs>
+<rect width="1400" height="820" fill="url(#sky)"/>
+<path d="M0 425 L150 355 L270 315 L390 270 L515 295 L635 245 L765 300 L895 355 L1025 390 L1150 430 L1280 455 L1400 490 L1400 820 L0 820Z" fill="url(#hill)" opacity=".92"/>
+<path d="M0 600 Q220 550 410 600 T820 605 T1400 625 L1400 820 L0 820Z" fill="#d5cbb8"/>
+<path d="M0 682 Q260 635 510 680 T1000 690 T1400 675" fill="none" stroke="#b6aa94" stroke-width="4"/>
+<text x="1230" y="95" class="he big" text-anchor="end">מן ההר אל המנזר</text>
+<text x="1230" y="137" class="he small" text-anchor="end">תרשים מושגי — לא בקנה מידה</text>
+
+<!-- underground galleries -->
+<path d="M130 350 Q250 375 355 410 T555 470" fill="none" stroke="#4d5147" stroke-width="24" stroke-linecap="round" opacity=".72"/>
+<path d="M130 350 Q250 375 355 410 T555 470" fill="none" stroke="#7bb0a6" stroke-width="8" stroke-linecap="round"/>
+<path d="M175 330 L175 378 M260 350 L260 400 M355 390 L355 435 M455 430 L455 470" stroke="#4d5147" stroke-width="5"/>
+<text x="255" y="275" class="he mid" text-anchor="middle">גלריות תת־קרקעיות</text>
+<text x="255" y="308" class="he small" text-anchor="middle">דמויות קנאת</text>
+<path d="M260 315 L260 348" class="thin"/>
+<circle cx="95" cy="330" r="25" fill="#376b69"/>
+<path d="M95 312 Q82 330 95 345 Q108 330 95 312" fill="#eaf2ec"/>
+<text x="100" y="390" class="he mid" text-anchor="middle">מעיין</text>
+<text x="100" y="420" class="he small" text-anchor="middle">ומקורות נוספים</text>
+
+<!-- conduit to mills -->
+<path d="M555 470 L665 515 L760 548" class="water"/>
+<text x="635" y="450" class="he mid" text-anchor="middle">תעלה בכוח הכבידה</text>
+<g transform="translate(745 535)">
+  <rect x="-45" y="-28" width="90" height="66" rx="5" fill="#e9e3d7" stroke="#39473d" stroke-width="5"/>
+  <circle cx="0" cy="7" r="27" fill="none" stroke="#294638" stroke-width="5"/>
+  <path d="M0 -19 V33 M-26 7 H26 M-19 -12 L19 26 M19 -12 L-19 26" stroke="#294638" stroke-width="4"/>
+</g>
+<text x="745" y="615" class="he mid" text-anchor="middle">טחנת מים 1</text>
+<path d="M790 548 L875 585" class="water"/>
+<g transform="translate(930 600)">
+  <rect x="-45" y="-28" width="90" height="66" rx="5" fill="#e9e3d7" stroke="#39473d" stroke-width="5"/>
+  <circle cx="0" cy="7" r="27" fill="none" stroke="#294638" stroke-width="5"/>
+  <path d="M0 -19 V33 M-26 7 H26 M-19 -12 L19 26 M19 -12 L-19 26" stroke="#294638" stroke-width="4"/>
+</g>
+<text x="930" y="680" class="he mid" text-anchor="middle">טחנת מים 2</text>
+
+<!-- monastery and tanks -->
+<g transform="translate(1130 380)">
+  <path d="M-130 85 L-110 -10 L-45 -10 L-20 -55 L40 -55 L65 -10 L120 -10 L140 85 Z" fill="#e7dfd0" stroke="#294638" stroke-width="6"/>
+  <path d="M-55 -10 V-65 H15 V-10 M-15 -65 V-105 H15 V-65" fill="#d8cdbb" stroke="#294638" stroke-width="5"/>
+  <path d="M-8 -105 Q0 -125 8 -105" fill="none" stroke="#294638" stroke-width="5"/>
+  <rect x="-105" y="30" width="36" height="55" fill="#8b6f58"/>
+  <rect x="-35" y="30" width="36" height="55" fill="#8b6f58"/>
+  <rect x="40" y="30" width="36" height="55" fill="#8b6f58"/>
+</g>
+<text x="1130" y="520" class="he big" text-anchor="middle">מנזר דוכיאריו</text>
+<text x="1130" y="555" class="he small" text-anchor="middle">מאגרי אגירה מדורגים</text>
+<path d="M975 615 L1030 580 L1090 520" class="water"/>
+
+<!-- branching routes -->
+<path d="M1125 485 L1125 610 L1215 650" class="water"/>
+<path d="M1125 610 L1005 720 L840 740" class="branch"/>
+<path d="M1215 650 L1285 700" class="water"/>
+<text x="1250" y="635" class="he mid" text-anchor="middle">נתיב ראשי</text>
+<text x="1250" y="670" class="he small" text-anchor="middle">שתייה · בישול · חיי יום־יום</text>
+<text x="850" y="765" class="he mid" text-anchor="middle">נתיב משני</text>
+<text x="850" y="798" class="he small" text-anchor="middle">השקיה · סדנאות · מלאכה</text>
+<path d="M1285 700 L1340 735" stroke="#376b69" stroke-width="7" fill="none" marker-end="url(#arrow)"/>
+<text x="1340" y="785" class="he small" text-anchor="end">עודפים וניקוז</text>
+
+<!-- labels -->
+<rect x="34" y="24" width="420" height="72" rx="10" fill="#f3efe6" stroke="#d5cec0"/>
+<text x="244" y="54" class="he mid" text-anchor="middle">מקורות מגוונים</text>
+<text x="244" y="82" class="he small" text-anchor="middle">מעיינות · מי תהום · מי גשם</text>
+<rect x="475" y="24" width="430" height="72" rx="10" fill="#f3efe6" stroke="#d5cec0"/>
+<text x="690" y="54" class="he mid" text-anchor="middle">העיקרון המארגן</text>
+<text x="690" y="82" class="he small" text-anchor="middle">גובה, אגירה, חלוקה ושימוש חוזר</text>
+<rect x="925" y="24" width="440" height="72" rx="10" fill="#f3efe6" stroke="#d5cec0"/>
+<text x="1145" y="54" class="he mid" text-anchor="middle">ללא משאבה מרכזית</text>
+<text x="1145" y="82" class="he small" text-anchor="middle">הפרשי גובה מניעים את הזרימה</text>
+</svg>
