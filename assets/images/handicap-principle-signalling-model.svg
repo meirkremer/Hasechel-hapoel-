@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 760" role="img" aria-labelledby="title desc">
+<title id="title">המחשה של מודל איתות ועלות יחסית</title>
+<desc id="desc">תרשים סכמטי המציג שני שולחים בעלי מצב שונה המפיקים אות דומה, אך נושאים בעלות יחסית שונה; המקבל צופה באות ומנסה להסיק על מצב השולח.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f3efe6"/><stop offset="1" stop-color="#e8e2d6"/></linearGradient>
+  <marker id="arrow" markerWidth="12" markerHeight="12" refX="8" refY="6" orient="auto"><path d="M0 0 L12 6 L0 12Z" fill="#8b927f"/></marker>
+  <linearGradient id="bar" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#294638"/><stop offset="1" stop-color="#8ba18b"/></linearGradient>
+</defs>
+<rect width="1400" height="760" fill="url(#bg)"/>
+<path d="M60 90 H1340 M60 670 H1340" stroke="#d3cbbb" stroke-width="2"/>
+<g fill="#294638" opacity=".12"><circle cx="200" cy="240" r="95"/><circle cx="200" cy="500" r="60"/></g>
+<g>
+  <circle cx="200" cy="240" r="58" fill="#294638"/>
+  <circle cx="200" cy="500" r="38" fill="#a34e36"/>
+  <path d="M200 170 Q165 135 145 170 M200 170 Q235 135 255 170" stroke="#294638" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <path d="M200 455 Q170 430 155 455 M200 455 Q230 430 245 455" stroke="#a34e36" stroke-width="7" fill="none" stroke-linecap="round"/>
+</g>
+<g stroke="#8b927f" stroke-width="8" fill="none" marker-end="url(#arrow)">
+  <path d="M290 240 C420 240 430 315 550 315"/>
+  <path d="M260 500 C420 500 430 400 550 400"/>
+  <path d="M780 355 H1040"/>
+</g>
+<g>
+  <path d="M600 250 Q650 170 700 250 Q750 330 700 410 Q650 490 600 410 Q550 330 600 250Z" fill="#d3b56f" stroke="#8e7545" stroke-width="8"/>
+  <circle cx="650" cy="330" r="28" fill="#a34e36"/>
+  <circle cx="650" cy="330" r="11" fill="#f3efe6"/>
+  <path d="M650 410 V485" stroke="#8e7545" stroke-width="7"/>
+  <path d="M625 485 H675" stroke="#8e7545" stroke-width="7" stroke-linecap="round"/>
+</g>
+<g>
+  <rect x="1120" y="250" width="150" height="210" rx="28" fill="#294638"/>
+  <path d="M1155 330 Q1195 275 1240 330 Q1195 385 1155 330Z" fill="#f3efe6"/>
+  <circle cx="1198" cy="330" r="24" fill="#347b75"/>
+  <circle cx="1198" cy="330" r="10" fill="#20251f"/>
+  <path d="M1160 415 H1230" stroke="#d3b56f" stroke-width="8" stroke-linecap="round"/>
+</g>
+<g>
+  <rect x="110" y="590" width="190" height="22" rx="11" fill="#d1c7b7"/>
+  <rect x="110" y="590" width="145" height="22" rx="11" fill="url(#bar)"/>
+  <rect x="110" y="625" width="190" height="22" rx="11" fill="#d1c7b7"/>
+  <rect x="110" y="625" width="178" height="22" rx="11" fill="#a34e36"/>
+</g>
+<g fill="#a34e36" opacity=".18"><circle cx="650" cy="330" r="115"/><circle cx="1198" cy="330" r="125"/></g>
+<g stroke="#c5a16b" stroke-width="3" fill="none" opacity=".8">
+  <path d="M350 120 C500 30 820 40 980 150"/><path d="M350 540 C520 650 840 640 980 520"/>
+</g>
+</svg>

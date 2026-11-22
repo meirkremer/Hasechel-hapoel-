@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 900" role="img" aria-labelledby="title desc">
+<title id="title">טווס בתצוגת חיזור</title>
+<desc id="desc">איור מקורי בגווני ירוק, כחול וזהב של טווס הפורש מניפה גדולה של נוצות מעוטרות בעיניים.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f4efe5"/><stop offset="1" stop-color="#e2e8df"/></linearGradient>
+  <linearGradient id="feather" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#294638"/><stop offset=".55" stop-color="#347b75"/><stop offset="1" stop-color="#1d3b42"/></linearGradient>
+  <radialGradient id="eye"><stop offset="0" stop-color="#e8c77e"/><stop offset=".24" stop-color="#b95c3c"/><stop offset=".48" stop-color="#275c63"/><stop offset=".72" stop-color="#e1c16f"/><stop offset="1" stop-color="#294638"/></radialGradient>
+  <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="14"/></filter>
+</defs>
+<rect width="1400" height="900" fill="url(#bg)"/>
+<circle cx="1120" cy="170" r="120" fill="#d7c49a" opacity=".22"/>
+<path d="M0 710 Q340 620 650 700 T1400 680 V900 H0Z" fill="#d5dfd2"/>
+<ellipse cx="710" cy="770" rx="430" ry="34" fill="#425a4a" opacity=".12" filter="url(#shadow)"/>
+<g opacity=".98">
+  <path d="M710 595 Q360 520 230 165 Q480 210 700 540Z" fill="url(#feather)" stroke="#294638" stroke-width="7"/>
+  <path d="M710 595 Q440 440 405 105 Q620 210 735 535Z" fill="url(#feather)" stroke="#294638" stroke-width="7"/>
+  <path d="M710 595 Q570 380 600 75 Q760 230 765 550Z" fill="url(#feather)" stroke="#294638" stroke-width="7"/>
+  <path d="M710 595 Q690 355 800 80 Q910 285 800 565Z" fill="url(#feather)" stroke="#294638" stroke-width="7"/>
+  <path d="M710 595 Q820 385 1015 120 Q1060 365 850 595Z" fill="url(#feather)" stroke="#294638" stroke-width="7"/>
+  <path d="M710 595 Q950 440 1210 210 Q1185 455 890 635Z" fill="url(#feather)" stroke="#294638" stroke-width="7"/>
+  <path d="M710 595 Q1010 525 1320 380 Q1225 600 900 675Z" fill="url(#feather)" stroke="#294638" stroke-width="7"/>
+</g>
+<g fill="url(#eye)" stroke="#e5cf91" stroke-width="5">
+  <ellipse cx="300" cy="255" rx="53" ry="82" transform="rotate(-30 300 255)"/>
+  <ellipse cx="470" cy="205" rx="53" ry="82" transform="rotate(-16 470 205)"/>
+  <ellipse cx="630" cy="165" rx="53" ry="82" transform="rotate(-5 630 165)"/>
+  <ellipse cx="810" cy="168" rx="53" ry="82" transform="rotate(7 810 168)"/>
+  <ellipse cx="995" cy="215" rx="53" ry="82" transform="rotate(18 995 215)"/>
+  <ellipse cx="1170" cy="315" rx="53" ry="82" transform="rotate(29 1170 315)"/>
+  <ellipse cx="1240" cy="455" rx="53" ry="82" transform="rotate(52 1240 455)"/>
+</g>
+<g fill="#f1e5bd" opacity=".85">
+  <circle cx="300" cy="255" r="10"/><circle cx="470" cy="205" r="10"/><circle cx="630" cy="165" r="10"/>
+  <circle cx="810" cy="168" r="10"/><circle cx="995" cy="215" r="10"/><circle cx="1170" cy="315" r="10"/><circle cx="1240" cy="455" r="10"/>
+</g>
+<g stroke="#a8bda8" stroke-width="5" fill="none" opacity=".75">
+  <path d="M300 255 Q450 430 705 610"/><path d="M470 205 Q560 405 715 605"/><path d="M630 165 Q665 390 725 610"/>
+  <path d="M810 168 Q790 405 730 610"/><path d="M995 215 Q900 440 745 610"/><path d="M1170 315 Q965 500 760 625"/><path d="M1240 455 Q1000 590 770 660"/>
+</g>
+<g>
+  <path d="M690 560 C640 620 645 715 720 755 C790 716 805 625 748 560Z" fill="#24515a" stroke="#1c3b42" stroke-width="8"/>
+  <ellipse cx="710" cy="660" rx="72" ry="110" fill="#2c7470" transform="rotate(14 710 660)"/>
+  <path d="M735 575 Q775 520 800 465 Q832 420 866 440 Q884 458 861 485 Q825 520 790 610" fill="#23615d" stroke="#1c3b42" stroke-width="8"/>
+  <circle cx="865" cy="445" r="42" fill="#2e7b75" stroke="#1c3b42" stroke-width="7"/>
+  <circle cx="878" cy="436" r="8" fill="#f4efe5"/>
+  <path d="M902 444 L954 460 L904 472Z" fill="#b56a3f"/>
+  <path d="M860 402 Q835 370 852 345 M870 403 Q874 363 896 345 M878 405 Q912 380 929 366" fill="none" stroke="#294638" stroke-width="7" stroke-linecap="round"/>
+  <path d="M688 746 L668 820 M738 745 L757 820" stroke="#a34e36" stroke-width="12" stroke-linecap="round"/>
+  <path d="M668 820 L640 827 M757 820 L785 827" stroke="#a34e36" stroke-width="10" stroke-linecap="round"/>
+</g>
+<g fill="none" stroke="#a34e36" stroke-width="3" opacity=".55">
+  <path d="M120 760 Q260 700 360 760"/><path d="M1040 760 Q1160 690 1280 750"/>
+</g>
+</svg>
