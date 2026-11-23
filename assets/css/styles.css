@@ -387,3 +387,7 @@ footer {
   .site-header .brand .brand-words strong{font-size:19px}
   .site-header .brand .brand-words small{font-size:9px}
 }
+
+/* Homepage now opens directly on the article feed; keep the transition compact. */
+.content-section{padding-top:28px}
+@media(max-width:560px){.content-section{padding-top:22px}}
