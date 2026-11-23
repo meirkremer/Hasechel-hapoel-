@@ -1,44 +1,47 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="t d">
 <title id="t">רשת נישואים בין שושלות חסידיות</title>
-<desc id="d">תרשים חלקי של קשרי נישואים שנרשמו במחקר בין דינוב, רופשיץ, צאנז, אהל, צ'רנוביל וסדיגורה.</desc>
+<desc id="d">תרשים חלקי של קשרי נישואים שנרשמו במחקר בין דינוב לרופשיץ, רופשיץ לצאנז, צאנז לאוהעל, צ'רנוביל לסדיגורה וצ'רנוביל לאפט מז'יבוז'.</desc>
 <defs>
   <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f4efe5"/><stop offset="1" stop-color="#e3dacb"/></linearGradient>
   <filter id="soft" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="10"/></filter>
 </defs>
 <rect width="1200" height="760" fill="url(#bg)"/>
 <g opacity=".13" stroke="#9d8e77" fill="none"><path d="M60 120H1140M60 640H1140M110 70V690M1090 70V690"/></g>
-<text x="600" y="82" text-anchor="middle" fill="#294638" font-family="'Noto Serif Hebrew',Georgia,serif" font-size="38">קשרי נישואים בין חצרות</text>
-<text x="600" y="119" text-anchor="middle" fill="#74756c" font-family="Assistant,Arial,sans-serif" font-size="18">קטע מתוך רשת היסטורית רחבה · נתוני מחקר שפורסם ב־2025</text>
+<text x="600" y="72" text-anchor="middle" fill="#294638" font-family="'Noto Serif Hebrew',Georgia,serif" font-size="38">קשרי נישואים בין חצרות</text>
+<text x="600" y="108" text-anchor="middle" fill="#74756c" font-family="Assistant,Arial,sans-serif" font-size="18">קטע מתוך רשת היסטורית רחבה · נתוני מחקר שפורסם ב־2025</text>
 <g stroke="#a34e36" stroke-width="5" fill="none" stroke-linecap="round" opacity=".85">
-  <path d="M205 310 Q360 230 510 310"/>
-  <path d="M510 310 Q660 230 820 310"/>
-  <path d="M820 310 Q970 230 1060 360"/>
-  <path d="M265 545 Q405 625 550 535"/>
-  <path d="M265 545 Q410 430 550 535"/>
+  <path d="M180 300 Q315 205 450 300"/>
+  <path d="M450 300 Q585 205 720 300"/>
+  <path d="M720 300 Q855 205 990 300"/>
+  <path d="M180 540 Q330 635 480 540"/>
+  <path d="M180 540 Q530 690 890 540"/>
 </g>
 <g fill="#a34e36" font-family="Assistant,Arial,sans-serif" font-weight="700" font-size="24" text-anchor="middle">
-  <text x="360" y="240">11</text><text x="665" y="240">17</text><text x="960" y="250">18</text>
-  <text x="405" y="625">17</text><text x="405" y="450">14</text>
+  <text x="315" y="220">11</text><text x="585" y="220">17</text><text x="855" y="220">18</text>
+  <text x="330" y="640">17</text><text x="530" y="670">14</text>
 </g>
-<g filter="url(#soft)" opacity=".18" fill="#294638">
-  <ellipse cx="205" cy="310" rx="110" ry="65"/><ellipse cx="510" cy="310" rx="110" ry="65"/><ellipse cx="820" cy="310" rx="110" ry="65"/>
-  <ellipse cx="1060" cy="360" rx="105" ry="65"/><ellipse cx="265" cy="545" rx="110" ry="65"/><ellipse cx="550" cy="535" rx="110" ry="65"/>
+<g filter="url(#soft)" opacity=".16" fill="#294638">
+  <ellipse cx="180" cy="300" rx="110" ry="60"/><ellipse cx="450" cy="300" rx="110" ry="60"/><ellipse cx="720" cy="300" rx="110" ry="60"/>
+  <ellipse cx="990" cy="300" rx="110" ry="60"/><ellipse cx="180" cy="540" rx="110" ry="60"/><ellipse cx="480" cy="540" rx="110" ry="60"/><ellipse cx="890" cy="540" rx="150" ry="60"/>
 </g>
 <g stroke="#294638" stroke-width="3">
-  <rect x="100" y="265" width="210" height="90" rx="18" fill="#294638"/>
-  <rect x="405" y="265" width="210" height="90" rx="18" fill="#a34e36"/>
-  <rect x="715" y="265" width="210" height="90" rx="18" fill="#294638"/>
-  <rect x="955" y="315" width="210" height="90" rx="18" fill="#294638"/>
-  <rect x="160" y="500" width="210" height="90" rx="18" fill="#294638"/>
-  <rect x="445" y="490" width="210" height="90" rx="18" fill="#294638"/>
+  <rect x="80" y="255" width="200" height="90" rx="18" fill="#294638"/>
+  <rect x="350" y="255" width="200" height="90" rx="18" fill="#a34e36"/>
+  <rect x="620" y="255" width="200" height="90" rx="18" fill="#294638"/>
+  <rect x="890" y="255" width="200" height="90" rx="18" fill="#294638"/>
+  <rect x="80" y="495" width="200" height="90" rx="18" fill="#294638"/>
+  <rect x="380" y="495" width="200" height="90" rx="18" fill="#294638"/>
+  <rect x="750" y="495" width="280" height="90" rx="18" fill="#294638"/>
 </g>
-<g fill="#fffaf0" font-family="'Noto Serif Hebrew',Georgia,serif" font-size="31" font-weight="700" text-anchor="middle">
-  <text x="205" y="320">דינוב</text><text x="510" y="320">רופשיץ</text><text x="820" y="320">צאנז</text>
-  <text x="1060" y="370">אוהעל</text><text x="265" y="555">צ׳רנוביל</text><text x="550" y="545">סדיגורה</text>
+<g fill="#fffaf0" font-family="'Noto Serif Hebrew',Georgia,serif" font-size="29" font-weight="700" text-anchor="middle">
+  <text x="180" y="310">דינוב</text><text x="450" y="310">רופשיץ</text><text x="720" y="310">צאנז</text>
+  <text x="990" y="310">אוהעל</text><text x="180" y="550">צ׳רנוביל</text><text x="480" y="550">סדיגורה</text>
+  <text x="890" y="550" font-size="25">אפט–מז׳יבוז׳</text>
 </g>
-<g fill="#53605a" font-family="Assistant,Arial,sans-serif" font-size="18" text-anchor="middle">
-  <text x="205" y="390">חצי־פריפריה</text><text x="510" y="390">צומת אזורי</text><text x="820" y="390">מרכז רשת</text>
-  <text x="1060" y="440">מרכז רשת</text><text x="265" y="625">מרכז רשת</text><text x="550" y="620">מרכז רשת</text>
+<g fill="#53605a" font-family="Assistant,Arial,sans-serif" font-size="17" text-anchor="middle">
+  <text x="180" y="380">חצי־פריפריה</text><text x="450" y="380">צומת אזורי</text><text x="720" y="380">מרכז רשת</text>
+  <text x="990" y="380">מרכז רשת</text><text x="180" y="620">מרכז רשת</text><text x="480" y="620">מרכז רשת</text>
+  <text x="890" y="620">מרכז רשת</text>
 </g>
 <path d="M90 680H1110" stroke="#c5a16b" stroke-width="2"/>
 <text x="600" y="718" text-anchor="middle" fill="#74756c" font-family="Assistant,Arial,sans-serif" font-size="17">המספרים הם נישואים שנרשמו בין זוגות שושלות; התרשים אינו מפקד מלא של כל הקשרים</text>
