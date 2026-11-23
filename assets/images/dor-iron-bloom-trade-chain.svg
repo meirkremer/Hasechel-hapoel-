@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+<title id="title">שרשרת הייצור והמסחר של גושי הברזל מלגונת דור</title>
+<desc id="desc">תרשים סכמטי מקורי המציג כור התכה, גוש ברזל גולמי עם סיגים, הובלה ימית ועיבוד בבית מלאכה.</desc>
+<defs>
+  <linearGradient id="paper" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f7f3eb"/><stop offset="1" stop-color="#e8e0d1"/></linearGradient>
+  <linearGradient id="iron" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#5e625d"/><stop offset=".55" stop-color="#292f2c"/><stop offset="1" stop-color="#151b19"/></linearGradient>
+  <linearGradient id="slag" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#c5a16b"/><stop offset="1" stop-color="#80664b"/></linearGradient>
+  <linearGradient id="fire" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#e2a15a"/><stop offset="1" stop-color="#a34e36"/></linearGradient>
+  <marker id="arrow" markerWidth="10" markerHeight="10" refX="7" refY="3" orient="auto"><path d="M0 0 L7 3 L0 6" fill="none" stroke="#a34e36" stroke-width="1.5"/></marker>
+</defs>
+<rect width="1200" height="760" fill="url(#paper)"/>
+<path d="M38 36 H1162 M38 720 H1162" stroke="#b8aa91" stroke-width="1"/>
+<text x="600" y="88" text-anchor="middle" direction="rtl" unicode-bidi="bidi-override" font-family="Assistant,Arial,sans-serif" font-size="32" font-weight="700" fill="#294638">מהכבשן אל הנמל — לפני שהברזל נעשה כלי</text>
+<text x="600" y="124" text-anchor="middle" direction="rtl" unicode-bidi="bidi-override" font-family="Assistant,Arial,sans-serif" font-size="17" fill="#68736c">מודל אפשרי של שרשרת הייצור המשתקפת במטען Dor L2</text>
+<g transform="translate(900 190)">
+  <path d="M42 70 L190 70 L175 300 L58 300 Z" fill="#a49a88" stroke="#5e655e" stroke-width="4"/>
+  <path d="M58 96 H175 L162 273 H72 Z" fill="#353b36"/>
+  <path d="M86 255 C67 220 96 200 100 169 C120 190 126 209 120 226 C141 209 145 187 139 166 C173 204 158 235 143 255 Z" fill="url(#fire)"/>
+  <path d="M44 76 L80 35 L152 35 L190 76" fill="#c9bda7" stroke="#5e655e" stroke-width="4"/>
+  <path d="M98 34 V4 M136 34 V-2" stroke="#8a6d3b" stroke-width="6" stroke-linecap="round"/>
+  <path d="M80 303 H175" stroke="#5e655e" stroke-width="6"/>
+  <circle cx="60" cy="324" r="5" fill="#a34e36"/><circle cx="82" cy="333" r="4" fill="#a34e36"/><circle cx="159" cy="326" r="5" fill="#a34e36"/>
+  <text x="115" y="370" text-anchor="middle" direction="rtl" unicode-bidi="bidi-override" font-family="Assistant,Arial,sans-serif" font-size="24" font-weight="700" fill="#294638">1 · כור התכה</text>
+  <text x="115" y="402" text-anchor="middle" direction="rtl" unicode-bidi="bidi-override" font-family="Assistant,Arial,sans-serif" font-size="17" fill="#53605a">עפרה + פחם + אוויר</text>
+  <text x="115" y="429" text-anchor="middle" direction="rtl" unicode-bidi="bidi-override" font-family="Assistant,Arial,sans-serif" font-size="16" fill="#8a6d3b">כ־1,200°C</text>
+</g>
+<path d="M875 360 H790" stroke="#a34e36" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+<g transform="translate(610 235)">
+  <path d="M52 130 L73 72 L133 45 L202 67 L236 120 L218 188 L167 220 L91 206 L43 174 Z" fill="url(#slag)" stroke="#6c5841" stroke-width="4"/>
+  <path d="M70 124 L96 88 L145 69 L193 89 L211 132 L191 175 L152 194 L99 183 L68 158 Z" fill="url(#iron)" stroke="#252d29" stroke-width="3"/>
+  <g fill="#c5a16b" opacity=".9"><circle cx="91" cy="119" r="5"/><circle cx="115" cy="98" r="4"/><circle cx="169" cy="102" r="5"/><circle cx="187" cy="145" r="4"/><circle cx="135" cy="166" r="5"/><circle cx="91" cy="160" r="3"/></g>
+  <path d="M43 135 L21 120 M227 121 L249 105 M145 45 L151 22" stroke="#8a6d3b" stroke-width="3" stroke-linecap="round"/>
+  <text x="140" y="270" text-anchor="middle" direction="rtl" unicode-bidi="bidi-override" font-family="Assistant,Arial,sans-serif" font-size="24" font-weight="700" fill="#294638">2 · גוש גולמי</text>
+  <text x="140" y="302" text-anchor="middle" direction="rtl" unicode-bidi="bidi-override" font-family="Assistant,Arial,sans-serif" font-size="17" fill="#53605a">ברזל נקבובי וסיגים</text>
+  <text x="140" y="329" text-anchor="middle" direction="rtl" unicode-bidi="bidi-override" font-family="Assistant,Arial,sans-serif" font-size="16" fill="#8a6d3b">עדיין לא חושל</text>
+</g>
+<path d="M575 360 H490" stroke="#a34e36" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+<g transform="translate(315 240)">
+  <path d="M16 166 H248 L211 220 H57 Z" fill="#294638" stroke="#1d3026" stroke-width="4"/>
+  <path d="M67 166 V89 H144 V166" fill="#d4c6ad" stroke="#53605a" stroke-width="3"/>
+  <path d="M145 166 V112 H207 V166" fill="#b79a70" stroke="#53605a" stroke-width="3"/>
+  <path d="M104 89 V35 M176 112 V55" stroke="#53605a" stroke-width="4"/>
+  <path d="M108 39 L108 84 L65 84 Z M180 58 L180 107 L218 107 Z" fill="#e9e3d7" stroke="#8a6d3b" stroke-width="2"/>
+  <path d="M26 237 C55 224 77 250 106 237 C135 224 157 250 186 237 C215 224 233 246 258 237" stroke="#5e8190" stroke-width="5" fill="none"/>
+  <path d="M14 255 C43 242 65 268 94 255 C123 242 145 268 174 255 C203 242 221 264 246 255" stroke="#8aa0a3" stroke-width="3" fill="none"/>
+  <text x="136" y="310" text-anchor="middle" direction="rtl" unicode-bidi="bidi-override" font-family="Assistant,Arial,sans-serif" font-size="24" font-weight="700" fill="#294638">3 · הובלה ימית</text>
+  <text x="136" y="342" text-anchor="middle" direction="rtl" unicode-bidi="bidi-override" font-family="Assistant,Arial,sans-serif" font-size="17" fill="#53605a">חומר גלם בין נמלים</text>
+</g>
+<path d="M285 360 H200" stroke="#a34e36" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+<g transform="translate(55 205)">
+  <path d="M38 225 H225 L205 245 H60 Z" fill="#5e625d"/>
+  <path d="M78 204 H190 L205 225 H60 Z" fill="#303733"/>
+  <path d="M92 194 L155 160 L180 180 L118 212 Z" fill="#a34e36" stroke="#663a2e" stroke-width="3"/>
+  <path d="M151 100 L176 123 L136 163 L112 140 Z" fill="#5e625d" stroke="#29352f" stroke-width="3"/>
+  <path d="M162 84 L205 43 L223 61 L180 104 Z" fill="#8a6d3b" stroke="#5e625d" stroke-width="3"/>
+  <path d="M87 160 C70 136 89 112 102 97 C112 118 119 135 109 154" fill="none" stroke="#a34e36" stroke-width="5" stroke-linecap="round"/>
+  <path d="M202 176 L222 163 M210 188 L236 188 M199 194 L214 213" stroke="#c5a16b" stroke-width="3" stroke-linecap="round"/>
+  <text x="135" y="300" text-anchor="middle" direction="rtl" unicode-bidi="bidi-override" font-family="Assistant,Arial,sans-serif" font-size="24" font-weight="700" fill="#294638">4 · בית מלאכה</text>
+  <text x="135" y="332" text-anchor="middle" direction="rtl" unicode-bidi="bidi-override" font-family="Assistant,Arial,sans-serif" font-size="17" fill="#53605a">דחיסה, חישול ועיצוב</text>
+  <text x="135" y="359" text-anchor="middle" direction="rtl" unicode-bidi="bidi-override" font-family="Assistant,Arial,sans-serif" font-size="16" fill="#8a6d3b">כלים ומוצרים</text>
+</g>
+<rect x="225" y="530" width="750" height="105" rx="5" fill="#e8e0d1" stroke="#c5b79f"/>
+<text x="600" y="570" text-anchor="middle" direction="rtl" unicode-bidi="bidi-override" font-family="Assistant,Arial,sans-serif" font-size="21" font-weight="700" fill="#294638">מה מלמד הממצא מדור?</text>
+<text x="600" y="606" text-anchor="middle" direction="rtl" unicode-bidi="bidi-override" font-family="Assistant,Arial,sans-serif" font-size="17" fill="#53605a">אפשר להפריד בין מקום ההתכה, מקום העיבוד ומקום המסחר — אך המסלול המדויק אינו ידוע.</text>
+<text x="600" y="685" text-anchor="middle" direction="rtl" unicode-bidi="bidi-override" font-family="Assistant,Arial,sans-serif" font-size="13" fill="#8a8172">תרשים מושגי מקורי · לא תוכנית ארכאולוגית ולא שחזור של כלי שיט היסטורי</text>
+</svg>
