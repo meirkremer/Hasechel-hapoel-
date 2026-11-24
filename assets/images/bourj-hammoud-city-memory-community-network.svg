@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 820" role="img" aria-labelledby="title desc">
+<title id="title">רשת מוסדות ושייכות בבורג' חמוד</title>
+<desc id="desc">תרשים מושגי המציג כיצד אגודות מוצא, רכישת קרקע, דיור, בתי ספר, בתי מלאכה, מוסדות דת, מפלגות, עירייה ורשתות תפוצה נקשרו זו בזו.</desc>
+<rect width="1400" height="820" fill="#f2ecdf"/>
+<g stroke="#b5a58b" stroke-width="5" fill="none">
+  <path d="M700 385 L340 180 M700 385 L700 150 M700 385 L1060 180 M700 385 L340 620 M700 385 L700 650 M700 385 L1060 620"/>
+  <path d="M340 180 L700 150 L1060 180" opacity=".5"/>
+  <path d="M340 620 L700 650 L1060 620" opacity=".5"/>
+</g>
+<g>
+  <rect x="500" y="300" width="400" height="170" rx="28" fill="#294638"/>
+  <text x="700" y="365" text-anchor="middle" font-family="Arial,sans-serif" font-size="38" font-weight="700" fill="#f4eee3">אגודות יוצאי מקום</text>
+  <text x="700" y="415" text-anchor="middle" font-family="Arial,sans-serif" font-size="23" fill="#d7c9b0">כסף · אמון · קשרי משפחה</text>
+</g>
+<g font-family="Arial,sans-serif" text-anchor="middle">
+  <rect x="170" y="105" width="340" height="150" rx="22" fill="#c99b63"/><text x="340" y="165" font-size="31" font-weight="700" fill="#2b332d">קרקע ודיור</text><text x="340" y="207" font-size="21" fill="#4d4a3f">חלוקת מגרשים ושכונות</text>
+  <rect x="530" y="55" width="340" height="150" rx="22" fill="#d7d9cb"/><text x="700" y="115" font-size="31" font-weight="700" fill="#294638">בתי ספר ושפה</text><text x="700" y="157" font-size="21" fill="#53605a">העברת ידע בין דורות</text>
+  <rect x="890" y="105" width="340" height="150" rx="22" fill="#b9cfca"/><text x="1060" y="165" font-size="31" font-weight="700" fill="#294638">בתי מלאכה ומסחר</text><text x="1060" y="207" font-size="21" fill="#53605a">עבודה וקשרים כלכליים</text>
+  <rect x="170" y="545" width="340" height="150" rx="22" fill="#d6b9a3"/><text x="340" y="605" font-size="31" font-weight="700" fill="#533b32">כנסיות ומרפאות</text><text x="340" y="647" font-size="21" fill="#5d5147">סיוע ושירותים קהילתיים</text>
+  <rect x="530" y="570" width="340" height="150" rx="22" fill="#b9c5a9"/><text x="700" y="630" font-size="31" font-weight="700" fill="#294638">מפלגות ועירייה</text><text x="700" y="672" font-size="21" fill="#53605a">ייצוג, משאבים ותשתיות</text>
+  <rect x="890" y="545" width="340" height="150" rx="22" fill="#c8b8ca"/><text x="1060" y="605" font-size="31" font-weight="700" fill="#3d3543">תפוצה ורשתות חוץ</text><text x="1060" y="647" font-size="21" fill="#5d5660">כסף, קשרים וזיכרון</text>
+</g>
+<text x="700" y="775" text-anchor="middle" font-family="Arial,sans-serif" font-size="21" fill="#6b7068">מודל המחשה: קשרים שנוצרו בהדרגה, לא תרשים ארגוני של מוסד אחד</text>
+</svg>

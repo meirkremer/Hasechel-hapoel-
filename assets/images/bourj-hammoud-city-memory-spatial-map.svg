@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 820" role="img" aria-labelledby="title desc">
+<title id="title">תרשים מרחבי סכמטי של בורג' חמוד וסביבתה</title>
+<desc id="desc">תרשים לא בקנה מידה המציג את ביירות, הנמל, קרנטינה, בורג' חמוד, נור מרש, נבאע ודקוואנה ביחס כללי זה לזה.</desc>
+<defs>
+  <linearGradient id="paper" x2="0" y2="1"><stop stop-color="#f4eee3"/><stop offset="1" stop-color="#e8dfcf"/></linearGradient>
+  <marker id="arrow" markerWidth="10" markerHeight="10" refX="7" refY="3" orient="auto"><path d="M0 0 L0 6 L8 3Z" fill="#a34e36"/></marker>
+</defs>
+<rect width="1400" height="820" fill="url(#paper)"/>
+<path d="M0 0 H390 Q460 180 370 320 Q320 470 420 820 H0Z" fill="#b9d0cf"/>
+<path d="M390 0 Q460 180 370 320 Q320 470 420 820" fill="none" stroke="#739a9a" stroke-width="7"/>
+<g fill="none" stroke="#c5b9a5" stroke-width="3" opacity=".8">
+  <path d="M430 80 L1300 80 M420 180 L1330 180 M420 280 L1320 280 M420 380 L1360 380 M430 480 L1340 480 M430 580 L1330 580 M460 680 L1300 680"/>
+  <path d="M520 20 L520 790 M700 20 L700 790 M880 20 L880 790 M1060 20 L1060 790 M1240 20 L1240 790"/>
+</g>
+<text x="145" y="410" font-family="Arial,sans-serif" font-size="42" fill="#416d70" text-anchor="middle" transform="rotate(-90 145 410)">הים התיכון</text>
+<g font-family="Arial,sans-serif" fill="#29352f">
+  <text x="600" y="70" font-size="26" font-weight="700">צפון</text>
+  <text x="1280" y="70" font-size="22" text-anchor="end">מזרחה</text>
+</g>
+<!-- nodes and connectors -->
+<g stroke="#a34e36" stroke-width="5" fill="none" marker-end="url(#arrow)">
+  <path d="M510 370 C620 320 690 290 770 275"/>
+  <path d="M770 275 C865 240 920 230 1000 230"/>
+  <path d="M1000 230 C1090 300 1100 420 1040 500"/>
+  <path d="M1000 230 C900 410 840 520 790 610"/>
+  <path d="M1040 500 C1130 560 1180 610 1230 665"/>
+</g>
+<g>
+  <circle cx="510" cy="370" r="68" fill="#294638"/><text x="510" y="380" text-anchor="middle" font-family="Arial,sans-serif" font-size="28" font-weight="700" fill="#f3efe6">ביירות</text>
+  <circle cx="770" cy="275" r="50" fill="#a34e36"/><text x="770" y="284" text-anchor="middle" font-family="Arial,sans-serif" font-size="22" font-weight="700" fill="#fff4e7">הנמל</text>
+  <circle cx="1000" cy="230" r="74" fill="#c59e65"/><text x="1000" y="239" text-anchor="middle" font-family="Arial,sans-serif" font-size="27" font-weight="700" fill="#29352f">קרנטינה</text>
+  <circle cx="1040" cy="500" r="95" fill="#294638"/><text x="1040" y="490" text-anchor="middle" font-family="Arial,sans-serif" font-size="29" font-weight="700" fill="#f3efe6">בורג׳</text><text x="1040" y="527" text-anchor="middle" font-family="Arial,sans-serif" font-size="29" font-weight="700" fill="#f3efe6">חמוד</text>
+  <circle cx="790" cy="610" r="62" fill="#b56a4c"/><text x="790" y="619" text-anchor="middle" font-family="Arial,sans-serif" font-size="24" font-weight="700" fill="#fff4e7">נור מרש</text>
+  <circle cx="1230" cy="665" r="62" fill="#b56a4c"/><text x="1230" y="674" text-anchor="middle" font-family="Arial,sans-serif" font-size="25" font-weight="700" fill="#fff4e7">נבאע</text>
+  <rect x="1110" y="330" width="220" height="76" rx="16" fill="#d8d4c7" stroke="#6b776c" stroke-width="3"/>
+  <text x="1220" y="360" text-anchor="middle" font-family="Arial,sans-serif" font-size="24" fill="#29352f">דקוואנה</text>
+  <text x="1220" y="390" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" fill="#52645b">אזור תעשייה סמוך</text>
+</g>
+<rect x="40" y="720" width="1320" height="58" rx="12" fill="#fffaf0" stroke="#cfc4b1" stroke-width="2"/>
+<text x="700" y="757" text-anchor="middle" font-family="Arial,sans-serif" font-size="22" fill="#58645c">תרשים מרחבי סכמטי בלבד — לא מפה מדויקת ולא בקנה מידה</text>
+</svg>

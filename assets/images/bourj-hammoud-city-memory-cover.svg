@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 850" role="img" aria-labelledby="title desc">
+<title id="title">המחשה של רחוב בבורג' חמוד</title>
+<desc id="desc">רחוב עירוני צפוף ובו בנייני מגורים, מרפסות, חוטי חשמל ושלטים הנושאים שמות של עיירות ארמניות היסטוריות.</desc>
+<defs>
+  <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#d8e1d8"/><stop offset="1" stop-color="#f0e8d9"/></linearGradient>
+  <linearGradient id="road" x2="0" y2="1"><stop stop-color="#8c8b7e"/><stop offset="1" stop-color="#555e58"/></linearGradient>
+  <linearGradient id="leftWall" x2="1" y2="0"><stop stop-color="#b58b6d"/><stop offset="1" stop-color="#d7b89a"/></linearGradient>
+  <linearGradient id="rightWall" x2="1" y2="0"><stop stop-color="#7f9289"/><stop offset="1" stop-color="#b6b8a8"/></linearGradient>
+</defs>
+<rect width="1400" height="850" fill="url(#sky)"/>
+<circle cx="1120" cy="140" r="62" fill="#d7b16e" opacity=".65"/>
+<path d="M0 370 L230 255 L430 310 L590 235 L780 320 L1010 245 L1400 360 L1400 850 L0 850Z" fill="#aeb6a9" opacity=".34"/>
+<!-- left building -->
+<path d="M0 80 L360 135 L520 850 L0 850Z" fill="url(#leftWall)"/>
+<path d="M0 80 L360 135 L350 220 L0 180Z" fill="#765f4d"/>
+<path d="M0 270 L402 295 L420 360 L0 335Z" fill="#8e6c57"/>
+<g fill="#344b46" stroke="#efe1cb" stroke-width="8">
+  <rect x="48" y="230" width="88" height="112"/><rect x="190" y="250" width="88" height="112"/>
+  <rect x="78" y="410" width="90" height="118"/><rect x="235" y="425" width="90" height="118"/>
+  <rect x="35" y="600" width="100" height="120"/><rect x="210" y="610" width="100" height="120"/>
+</g>
+<g stroke="#6c5a4b" stroke-width="8" fill="none">
+  <path d="M32 350 L150 350 L166 386 L18 386Z"/><path d="M175 370 L300 370 L320 407 L160 407Z"/>
+  <path d="M62 540 L185 540 L202 578 L42 578Z"/><path d="M214 556 L342 556 L358 594 L198 594Z"/>
+</g>
+<!-- right building -->
+<path d="M1400 90 L1010 150 L890 850 L1400 850Z" fill="url(#rightWall)"/>
+<path d="M1400 90 L1010 150 L1024 225 L1400 185Z" fill="#52665c"/>
+<path d="M1400 290 L965 310 L950 375 L1400 352Z" fill="#68786e"/>
+<g fill="#364e4b" stroke="#e8dfce" stroke-width="8">
+  <rect x="1160" y="225" width="92" height="110"/><rect x="1300" y="210" width="72" height="110"/>
+  <rect x="1090" y="405" width="92" height="118"/><rect x="1250" y="390" width="92" height="118"/>
+  <rect x="990" y="600" width="100" height="120"/><rect x="1170" y="580" width="100" height="120"/><rect x="1320" y="570" width="70" height="120"/>
+</g>
+<g stroke="#4d5e55" stroke-width="8" fill="none">
+  <path d="M1130 350 L1265 350 L1282 386 L1110 386Z"/><path d="M1268 365 L1395 365 L1400 402 L1250 402Z"/>
+  <path d="M960 540 L1095 540 L1110 578 L944 578Z"/><path d="M1140 525 L1285 525 L1300 563 L1125 563Z"/>
+</g>
+<!-- street -->
+<path d="M350 850 L565 410 L830 410 L1080 850Z" fill="url(#road)"/>
+<path d="M690 430 L706 430 L742 850 L690 850Z" fill="#d8c7a5" opacity=".55"/>
+<path d="M560 850 L640 430 M840 430 L1000 850" stroke="#d9d0be" stroke-width="7" opacity=".45"/>
+<!-- balconies and awnings -->
+<g>
+  <path d="M0 390 L360 410 L360 448 L0 425Z" fill="#a34e36"/><path d="M0 425 L360 448" stroke="#f0d9b8" stroke-width="8"/>
+  <path d="M1040 410 L1400 390 L1400 430 L1032 455Z" fill="#c49a5e"/><path d="M1032 455 L1400 430" stroke="#f0d9b8" stroke-width="8"/>
+</g>
+<!-- signs -->
+<g font-family="Arial,sans-serif" font-weight="700" text-anchor="middle">
+  <rect x="58" y="170" width="228" height="54" rx="7" fill="#f1e8d8" stroke="#6d4f3d" stroke-width="4"/>
+  <text x="172" y="207" font-size="30" fill="#294638" letter-spacing="4">MARASH</text>
+  <rect x="1110" y="160" width="210" height="54" rx="7" fill="#f1e8d8" stroke="#52665c" stroke-width="4"/>
+  <text x="1215" y="197" font-size="28" fill="#294638" letter-spacing="4">ADANA</text>
+  <rect x="1065" y="535" width="190" height="48" rx="7" fill="#294638"/>
+  <text x="1160" y="568" font-size="25" fill="#f5ecdd" letter-spacing="5">SIS</text>
+</g>
+<!-- cables -->
+<g fill="none" stroke="#354b47" stroke-width="5" opacity=".9">
+  <path d="M0 110 C260 190 440 95 690 180 S1130 120 1400 75"/>
+  <path d="M0 160 C260 230 440 140 690 220 S1130 160 1400 120"/>
+  <path d="M200 0 C380 210 600 240 850 0"/><path d="M900 0 C820 180 650 250 480 350"/>
+</g>
+<g fill="#354b47">
+  <circle cx="510" cy="175" r="7"/><circle cx="905" cy="183" r="7"/><circle cx="720" cy="215" r="7"/>
+</g>
+<!-- small figures -->
+<g>
+  <circle cx="660" cy="635" r="23" fill="#6e493a"/><path d="M638 662 Q660 648 682 662 L695 745 L626 745Z" fill="#294638"/>
+  <path d="M643 744 L637 805 M680 744 L689 805" stroke="#29342f" stroke-width="14" stroke-linecap="round"/>
+  <circle cx="820" cy="675" r="19" fill="#8c5b43"/><path d="M799 699 Q820 688 840 699 L853 766 L786 766Z" fill="#a34e36"/>
+  <path d="M800 765 L793 815 M839 765 L845 815" stroke="#29342f" stroke-width="12" stroke-linecap="round"/>
+</g>
+<rect x="42" y="760" width="470" height="54" rx="12" fill="#f3efe6" opacity=".94"/>
+<text x="275" y="795" font-family="Arial,sans-serif" font-size="24" fill="#294638" text-anchor="middle">המחשה מקורית · רחוב עירוני וזיכרון מקומי</text>
+</svg>
