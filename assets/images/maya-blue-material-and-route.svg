@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 820" role="img" aria-labelledby="title desc">
+<title id="title">כחול המאיה: חומר מרוכב ומסע מינרלי</title>
+<desc id="desc">תרשים מושגי המציג את שילוב האינדיגו עם הפליגורסקיט בחימום ואת הקשר בין מכרה סקלום ביוקטן לבין אתר בואנביסטה דל קאיו בבליז.</desc>
+<defs>
+  <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f7f3e9"/><stop offset="1" stop-color="#e9e3d7"/></linearGradient>
+  <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#315f88"/><stop offset="1" stop-color="#1e3f66"/></linearGradient>
+  <marker id="arrow" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto"><path d="M0 0 L12 6 L0 12 Z" fill="#a34e36"/></marker>
+</defs>
+<rect width="1400" height="820" fill="url(#paper)"/>
+<text x="700" y="58" text-anchor="middle" font-family="Assistant,Arial,sans-serif" font-size="34" font-weight="700" fill="#20251f" direction="rtl">הכחול של המאיה: חומר, ידע ומרחק</text>
+<text x="700" y="94" text-anchor="middle" font-family="Assistant,Arial,sans-serif" font-size="17" fill="#667168" direction="rtl">תרשים מושגי המבוסס על מחקרי חומרים וארכאולוגיה — לא שחזור של מתכון קדום</text>
+<line x1="700" y1="132" x2="700" y2="750" stroke="#c8c0b2" stroke-width="2"/>
+<text x="350" y="160" text-anchor="middle" font-family="Assistant,Arial,sans-serif" font-size="25" font-weight="700" fill="#294638" direction="rtl">1 · כיצד נוצר הפיגמנט</text>
+<text x="1050" y="160" text-anchor="middle" font-family="Assistant,Arial,sans-serif" font-size="25" font-weight="700" fill="#294638" direction="rtl">2 · מאין הגיע המינרל</text>
+<!-- left: indigo -->
+<rect x="70" y="205" width="220" height="190" rx="8" fill="#e3e8df" stroke="#c7d0c5" stroke-width="2"/>
+<path d="M130 345 C145 295 160 270 183 230 M183 230 C205 260 223 295 236 345" fill="none" stroke="#426b50" stroke-width="8" stroke-linecap="round"/>
+<path d="M164 285 C132 268 116 255 109 236 M197 275 C229 258 247 245 254 226 M151 318 C123 307 103 294 92 279 M209 314 C238 300 257 285 267 267" fill="none" stroke="#5b815f" stroke-width="5" stroke-linecap="round"/>
+<ellipse cx="143" cy="270" rx="12" ry="7" fill="#315f88" transform="rotate(-30 143 270)"/>
+<ellipse cx="222" cy="263" rx="12" ry="7" fill="#315f88" transform="rotate(28 222 263)"/>
+<ellipse cx="120" cy="304" rx="11" ry="7" fill="#315f88" transform="rotate(22 120 304)"/>
+<ellipse cx="241" cy="300" rx="11" ry="7" fill="#315f88" transform="rotate(-22 241 300)"/>
+<text x="180" y="372" text-anchor="middle" font-family="Assistant,Arial,sans-serif" font-size="20" font-weight="700" fill="#294638" direction="rtl">אינדיגו מצמח</text>
+<text x="180" y="420" text-anchor="middle" font-family="Assistant,Arial,sans-serif" font-size="15" fill="#5c675e" direction="rtl">צבע אורגני</text>
+<!-- plus -->
+<text x="350" y="305" text-anchor="middle" font-family="Assistant,Arial,sans-serif" font-size="44" fill="#a34e36">+</text>
+<!-- palygorskite -->
+<rect x="410" y="205" width="220" height="190" rx="8" fill="#e8e0d2" stroke="#c9bca8" stroke-width="2"/>
+<g stroke="#b09c7f" stroke-width="7" stroke-linecap="round">
+<path d="M450 245 L590 230"/><path d="M445 270 L600 258"/><path d="M452 295 L588 286"/><path d="M445 322 L595 313"/><path d="M454 348 L588 340"/>
+</g>
+<g stroke="#315f88" stroke-width="3" stroke-dasharray="5 6">
+<path d="M470 239 L470 350"/><path d="M510 237 L510 347"/><path d="M550 234 L550 344"/><path d="M580 231 L580 340"/>
+</g>
+<g fill="#315f88"><circle cx="470" cy="280" r="7"/><circle cx="510" cy="311" r="7"/><circle cx="550" cy="264" r="7"/><circle cx="580" cy="320" r="7"/></g>
+<text x="520" y="372" text-anchor="middle" font-family="Assistant,Arial,sans-serif" font-size="20" font-weight="700" fill="#294638" direction="rtl">פליגורסקיט</text>
+<text x="520" y="420" text-anchor="middle" font-family="Assistant,Arial,sans-serif" font-size="15" fill="#5c675e" direction="rtl">חרסית סיבית עם תעלות זעירות</text>
+<!-- arrow to heat -->
+<path d="M180 465 L180 500 L520 500 L520 465" fill="none" stroke="#a34e36" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="250" y="485" width="200" height="72" rx="8" fill="#eee1d1" stroke="#d5b79a"/>
+<text x="350" y="515" text-anchor="middle" font-family="Assistant,Arial,sans-serif" font-size="18" font-weight="700" fill="#8b4b36" direction="rtl">ערבוב וחימום</text>
+<text x="350" y="540" text-anchor="middle" font-family="Assistant,Arial,sans-serif" font-size="14" fill="#6c5d50" direction="rtl">תנאי ההכנה המדויקים אינם ידועים</text>
+<path d="M350 558 L350 605" stroke="#a34e36" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="205" y="615" width="290" height="95" rx="8" fill="url(#blue)" stroke="#1e3f66" stroke-width="2"/>
+<path d="M230 645 C285 620 350 665 470 637 M230 674 C310 650 390 696 470 668" fill="none" stroke="#7da2c1" stroke-width="3" opacity=".7"/>
+<text x="350" y="653" text-anchor="middle" font-family="Assistant,Arial,sans-serif" font-size="23" font-weight="700" fill="#f7f3e9" direction="rtl">כחול המאיה</text>
+<text x="350" y="685" text-anchor="middle" font-family="Assistant,Arial,sans-serif" font-size="15" fill="#e6edf2" direction="rtl">פיגמנט מרוכב ועמיד</text>
+<!-- right: map schematic -->
+<rect x="755" y="205" width="575" height="505" rx="8" fill="#e8e5d9" stroke="#cfc8ba" stroke-width="2"/>
+<path d="M825 285 C870 240 960 230 1035 260 C1090 280 1120 315 1130 355 C1140 405 1105 445 1080 475 C1050 510 1045 555 1015 595 C990 625 960 615 955 575 C950 540 930 510 910 475 C880 420 850 365 825 285Z" fill="#d6c8a7" stroke="#b7a786" stroke-width="3"/>
+<path d="M1110 300 C1170 315 1220 360 1240 415 C1250 450 1235 490 1210 520 C1190 545 1170 570 1150 610" fill="none" stroke="#9bb4b5" stroke-width="26" stroke-linecap="round"/>
+<path d="M1115 325 C1160 355 1180 405 1175 455 C1170 495 1150 530 1135 565" fill="none" stroke="#6e9ba6" stroke-width="5" stroke-linecap="round"/>
+<text x="1040" y="250" text-anchor="middle" font-family="Assistant,Arial,sans-serif" font-size="18" fill="#82745b" direction="rtl">חצי האי יוקטן</text>
+<text x="1215" y="605" text-anchor="middle" font-family="Assistant,Arial,sans-serif" font-size="17" fill="#47717b" direction="rtl">הים הקריבי</text>
+<circle cx="1005" cy="365" r="11" fill="#a34e36" stroke="#f3efe6" stroke-width="4"/>
+<text x="990" y="340" text-anchor="middle" font-family="Assistant,Arial,sans-serif" font-size="18" font-weight="700" fill="#8b4733" direction="rtl">סקלום</text>
+<text x="990" y="390" text-anchor="middle" font-family="Assistant,Arial,sans-serif" font-size="14" fill="#6d6559" direction="rtl">מקור מינרלי משוער</text>
+<circle cx="1150" cy="565" r="11" fill="#294638" stroke="#f3efe6" stroke-width="4"/>
+<text x="1115" y="600" text-anchor="middle" font-family="Assistant,Arial,sans-serif" font-size="18" font-weight="700" fill="#294638" direction="rtl">בואנביסטה דל קאיו</text>
+<text x="1115" y="624" text-anchor="middle" font-family="Assistant,Arial,sans-serif" font-size="14" fill="#6d6559" direction="rtl">בליז</text>
+<path d="M1015 380 C1060 410 1110 470 1140 550" fill="none" stroke="#a34e36" stroke-width="4" stroke-dasharray="10 8" marker-end="url(#arrow)"/>
+<rect x="905" y="440" width="170" height="48" rx="6" fill="#f3efe6" stroke="#d4c8b5"/>
+<text x="990" y="470" text-anchor="middle" font-family="Assistant,Arial,sans-serif" font-size="17" font-weight="700" fill="#8b4733" direction="rtl">כ־375 ק״מ</text>
+<text x="1045" y="690" text-anchor="middle" font-family="Assistant,Arial,sans-serif" font-size="14" fill="#69736a" direction="rtl">הקו והמסלול סכמטיים; נתיב ההעברה לא הוכח</text>
+<text x="700" y="785" text-anchor="middle" font-family="Assistant,Arial,sans-serif" font-size="14" fill="#7a766d" direction="rtl">האיור מציג מודל מושגי בלבד; אינו מבנה מולקולרי מדויק ואינו מפה בקנה מידה</text>
+</svg>
