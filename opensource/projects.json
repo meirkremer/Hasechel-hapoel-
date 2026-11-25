@@ -1,4 +1,35 @@
 {
-  "updated_at": null,
-  "projects": []
+  "updated_at": "2026-11-25T21:00:00+02:00",
+  "projects": [
+    {
+      "title": "קונטיינרים בלי המשקל העודף: Kiri מנסה להחליף את Docker Desktop",
+      "path": "articles/kiri-container-runtime.html",
+      "summary": "מנוע קונטיינרים צעיר ב־Rust, תואם Docker CLI ו־Compose, שמנסה להפוך את סביבת הפיתוח המקומית לקלה ומהירה יותר.",
+      "language": "Rust",
+      "category": "תשתיות · קונטיינרים",
+      "published_at": "2026-11-25",
+      "repository_url": "https://github.com/libracoder/kiri",
+      "license": "Apache-2.0"
+    },
+    {
+      "title": "להפוך תעבורת אמת לבדיקות: כך Keploy מקליט ומשחזר את האפליקציה",
+      "path": "articles/keploy-record-replay-testing.html",
+      "summary": "כלי בדיקות API ואינטגרציה שמקליט תעבורה ותלויות חיצוניות והופך אותן למקרי בדיקה ול־mocks שניתן להריץ שוב.",
+      "language": "Go",
+      "category": "פיתוח תוכנה · בדיקות",
+      "published_at": "2026-11-25",
+      "repository_url": "https://github.com/keploy/keploy",
+      "license": "Apache-2.0"
+    },
+    {
+      "title": "לאן נעלמות השעות? ActivityWatch בונה יומן פעילות שנשאר אצלכם",
+      "path": "articles/activitywatch-local-time-tracking.html",
+      "summary": "מעקב זמן אוטומטי, מקומי וניתן להרחבה אחר אפליקציות, חלונות ואתרים — עם שליטה של המשתמש בנתונים.",
+      "language": "Python",
+      "category": "פרודוקטיביות · פרטיות",
+      "published_at": "2026-11-25",
+      "repository_url": "https://github.com/ActivityWatch/activitywatch",
+      "license": "MPL-2.0"
+    }
+  ]
 }
