@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="במקום לכתוב ידנית כל תרחיש וכל mock, Keploy מתעד אינטראקציות אמיתיות של שירותים והופך אותן למקרי בדיקה שאפשר להריץ שוב — גם בלי להפעיל מחדש את כל התשתיות החיצוניות.">
+<title>להפוך תעבורת אמת לבדיקות: כך Keploy מקליט ומשחזר את האפליקציה — פרויקטים בקוד פתוח | השכל הפועל</title>
+<link rel="icon" type="image/svg+xml" href="../../assets/images/brand-symbol.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Assistant:wght@300;400;500;600;700;800&family=Noto+Serif+Hebrew:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../assets/css/styles.css">
+<style>
+.oss-article{width:min(820px,calc(100% - 40px));margin:55px auto 90px}
+.oss-article h1{font:600 clamp(38px,6vw,62px)/1.35 "Noto Serif Hebrew",serif;margin:12px 0 20px}
+.oss-article .dek{font-size:20px;line-height:2;color:#62665d}
+.oss-article .meta{font-size:12px;color:var(--muted);padding:18px 0;border-bottom:1px solid var(--line)}
+.oss-article article{font-size:17px;line-height:2.15}
+.oss-article article h2{font:600 29px "Noto Serif Hebrew",serif;margin:42px 0 12px}
+.oss-article article a{color:#315b43;overflow-wrap:anywhere}
+.oss-article pre{direction:ltr;text-align:left;overflow:auto;background:#ece9e1;padding:16px;border-radius:4px}
+.oss-project-box{background:#eae6dc;padding:22px;margin:28px 0;line-height:2}
+.oss-project-box a{overflow-wrap:anywhere}
+.ask-chatgpt{display:inline-flex;margin:20px 0;padding:12px 18px;background:#294638;color:#fff!important;text-decoration:none;border-radius:3px;font-weight:600}
+@media(max-width:700px){.oss-article{margin:35px auto 65px}}
+</style>
+</head>
+<body>
+<header class="site-header"><a class="brand" href="../../"><span class="brand-mark">הפ</span><span class="brand-words"><strong>השכל הפועל</strong><small>ידע · תרבות · מחשבה</small></span></a><nav aria-label="ניווט ראשי"><a href="../../#articles">כתבות</a><a href="../">קוד פתוח</a><a href="../../#internet">גילוי האינטרנט</a></nav></header>
+<main class="oss-article">
+<p class="eyebrow">פרויקטים בקוד פתוח · פיתוח תוכנה · בדיקות</p>
+<h1>להפוך תעבורת אמת לבדיקות: כך Keploy מקליט ומשחזר את האפליקציה</h1>
+<p class="dek">במקום לכתוב ידנית כל תרחיש וכל mock, Keploy מתעד אינטראקציות אמיתיות של שירותים והופך אותן למקרי בדיקה שאפשר להריץ שוב — גם בלי להפעיל מחדש את כל התשתיות החיצוניות.</p>
+<div class="meta">25 בנובמבר 2026 · Go · כ־7 דקות קריאה</div>
+<div class="oss-project-box"><strong>הפרויקט המקורי</strong><br><a href="https://github.com/keploy/keploy">https://github.com/keploy/keploy</a><br>רישיון: Apache-2.0 · כוכבים בעת הבדיקה: כ־20 אלף</div>
+<a class="ask-chatgpt" href="https://chatgpt.com/?q=%D7%A7%D7%A8%D7%90%20%D7%90%D7%AA%20%D7%94%D7%9B%D7%AA%D7%91%D7%94%20%D7%94%D7%96%D7%95%20%D7%91%D7%90%D7%AA%D7%A8%20%D7%94%D7%A9%D7%9B%D7%9C%20%D7%94%D7%A4%D7%95%D7%A2%D7%9C%3A%20https%3A%2F%2Fmeirkremer.github.io%2FHasechel-hapoel-%2Fopensource%2Farticles%2Fkeploy-record-replay-testing.html%0A%D7%A1%D7%9B%D7%9D%20%D7%9C%D7%99%20%D7%90%D7%AA%20%D7%94%D7%A8%D7%A2%D7%99%D7%95%D7%9F%20%D7%94%D7%9E%D7%A8%D7%9B%D7%96%D7%99%2C%20%D7%94%D7%A1%D7%91%D7%A8%20%D7%9E%D7%95%D7%A0%D7%97%D7%99%D7%9D%20%D7%98%D7%9B%D7%A0%D7%99%D7%99%D7%9D%2C%20%D7%A2%D7%A0%D7%94%20%D7%A2%D7%9C%20%D7%A9%D7%90%D7%9C%D7%95%D7%AA%D7%99%D7%99%20%D7%95%D7%94%D7%91%D7%97%D7%9F%20%D7%91%D7%99%D7%9F%20%D7%9E%D7%94%20%D7%A9%D7%9B%D7%AA%D7%95%D7%91%20%D7%91%D7%9B%D7%AA%D7%91%D7%94%20%D7%9C%D7%91%D7%99%D7%9F%20%D7%9E%D7%99%D7%93%D7%A2%20%D7%A0%D7%95%D7%A1%D7%A3." target="_blank" rel="noopener">שאלו את ChatGPT על הפרויקט ↗</a>
+<article>
+<p>בדיקות יחידה הן חשובות, אבל הן אינן מספרות את כל הסיפור. באפליקציה אמיתית, בקשת API אחת עשויה להפעיל שרשרת של קריאות למסד נתונים, שירות צד שלישי, תור הודעות או מערכת אחסון. כתיבת בדיקות שמדמות את כל המערכת דורשת זמן, והתחזוקה של mocks ידניים עלולה להפוך לפרויקט בפני עצמו. <strong>Keploy</strong> מציע להפוך את כיוון העבודה: במקום להתחיל מתרחיש בדיקה שהמפתח ממציא, הוא מתחיל מתעבורה שהאפליקציה כבר יצרה.</p>
+<h2>הקלטה במקום תסריט ידני</h2>
+<p>Keploy הוא כלי קוד פתוח לבדיקות API ואינטגרציה. במצב <em>record</em> מפעילים את האפליקציה דרך Keploy, והוא לוכד את הבקשות והתגובות הרלוונטיות ואת האינטראקציות שלה עם שירותים חיצוניים. לאחר מכן הוא שומר את הנתונים שנאספו כמקרי בדיקה וכ־mocks. במצב <em>test</em> הוא שולח שוב את הבקשות לאפליקציה ומחזיר לה תשובות מוקלטות מהתלויות, כך שאפשר לבדוק את ההתנהגות בלי להפעיל מחדש כל שירות חיצוני.</p>
+<p>במילים אחרות, Keploy מנסה ליצור מעין הקלטה חוזרת של שיחה בין רכיבי תוכנה. אם משתמש ביצע פעולה שגרמה לאפליקציה לקרוא ל־API, לשלוף נתונים מ־Postgres ולפנות לשירות נוסף, התיעוד יכול להפוך את הזרימה הזו למבחן שניתן להריץ שוב.</p>
+<h2>למה eBPF משנה את התמונה?</h2>
+<p>אחד המרכיבים המעניינים הוא השימוש ב־eBPF בלינוקס. eBPF מאפשר להריץ תוכניות מוגבלות בתוך ליבת Linux ולצפות באירועים מסוימים בלי לשנות את קוד האפליקציה או להוסיף לה SDK ייעודי. Keploy משתמש במנגנון הזה כדי ללכוד תעבורה ברמת הרשת. מבחינת המפתח, המטרה היא להימנע משילוב ספרייה בכל שירות ובכל שפה.</p>
+<p>הגישה הזו מסבירה את הטענה של Keploy שהוא language-agnostic: הוא מתמקד בגבול שבין תהליכים ושירותים, ולא באינטגרציה עמוקה עם framework מסוים. עם זאת, "ללא שינוי קוד" אינו אומר "ללא תנאים": לכידה ברמת מערכת ההפעלה תלויה בפלטפורמה, בהרשאות ובסוגי הפרוטוקולים הנתמכים.</p>
+<h2>מה אפשר ללכוד ולשחזר?</h2>
+<p>הפרויקט מתאר תמיכה לא רק בבקשות HTTP, אלא גם באינטראקציות עם מסדי נתונים כגון PostgreSQL,‏ MySQL ו־MongoDB, תורים וזרמי הודעות כגון Kafka ו־RabbitMQ, ושירותי צד שלישי. התיעוד מכנה זאת לעיתים <em>infra-virtualization</em>: במקום להסתפק ב־mock של endpoint אחד, המערכת מנסה לשחזר חלק גדול יותר מהסביבה שבה האפליקציה פעלה.</p>
+<p>הערך המעשי ברור: בדיקה שחוזרת על עצמה יכולה לרוץ בסביבת CI בלי להקים בכל פעם מסד נתונים מלא, חשבון אצל ספק חיצוני או תשתית הודעות. היא גם יכולה לחשוף רגרסיות שנוצרות משינוי בקוד, מפני שהקלט והתגובות הצפויות נשמרים כנתוני בדיקה.</p>
+<h2>איך מתחילים?</h2>
+<p>ה־Quick Start של הפרויקט מציע להתקין את Keploy Agent, להפעיל את האפליקציה במצב הקלטה, ואז להריץ בדיקות מול אותה פקודת הפעלה. דוגמה בסיסית שמופיעה בתיעוד היא:</p>
+<pre><code>keploy record -c "python main.py"
+keploy test -c "python main.py" --delay 10</code></pre>
+<p>הפקודה הראשונה מקליטה תרחישים בזמן שהאפליקציה פועלת. לאחר מכן מבצעים באפליקציה את הפעולות שרוצים לתעד. הפקודה השנייה מריצה מחדש את התרחישים שנשמרו. בפועל, בפרויקט קיים צריך להתאים את פקודת ההפעלה, להגדיר את סביבת הבדיקה ולבדוק אילו תלויות נתמכות בגרסה ובמערכת ההפעלה שלכם.</p>
+<h2>ההבדל בין שחזור שימושי לבין בדיקה טובה</h2>
+<p>הקלטה אוטומטית אינה מחליפה תכנון בדיקות. אם מקליטים רק את המסלול התקין שהתרחש, נקבל בעיקר בדיקה של המסלול התקין. היא לא תמציא בעצמה מקרי קצה, שגיאות הרשאה, עומסים, נתונים חריגים או מצבי כשל שלא נצפו. לכן Keploy מתאים במיוחד להרחיב כיסוי אינטגרציה מתוך שימוש אמיתי, ולא להחליף בדיקות יחידה, בדיקות אבטחה או תכנון מכוון של תרחישים.</p>
+<p>גם נתוני הקלטה דורשים תשומת לב. תעבורה אמיתית עלולה לכלול מזהים, כתובות, פרטי משתמש או מידע עסקי. לפני שמכניסים recordings למאגר קוד או מריצים אותם בסביבת CI, חשוב לבדוק מנגנוני masking, הרשאות, שמירה והפרדה בין נתוני פיתוח לנתוני ייצור. לא כדאי להניח שהקלטה בטוחה להפצה רק משום שהיא נוצרה על ידי כלי בדיקות.</p>
+<h2>מגבלות ותאימות</h2>
+<p>התיעוד הרשמי מציין הבדלים בין פלטפורמות. בלינוקס נדרשת ליבה 5.10 ומעלה עבור מסלול eBPF, והוא דורש הרשאות מתאימות. ב־macOS עם Apple Silicon יש מסלול user-space ותמיכה בפרוטוקולים ובשפות מסוימים; קריאות לשירותים אחרים עשויות להישמר כבתים גולמיים ולא בהכרח להיות ניתנות לשחזור מלא. ב־Windows קיימת התקנה ייעודית, אך יש לבדוק את ההנחיות והתמיכה העדכניות לפני אימוץ.</p>
+<p>גם מבחינת התלות הטכנולוגית, זהו כלי מורכב: המאגר כולל רכיבים רבים, תלויות מערכת, טיפול בפרוטוקולים ומנגנוני capture/replay. גרסאות ופרטי תמיכה משתנים, ולכן יש לקרוא את התיעוד ולא להסתפק בהבטחת "עובד עם כל שפה".</p>
+<h2>למי Keploy עשוי להתאים?</h2>
+<p>הוא מעניין צוותים שמפתחים APIs ושירותים מרובי־רכיבים, מתקשים לתחזק mocks ידניים ורוצים להפוך תעבורה קיימת לבדיקות רגרסיה. הוא עשוי להועיל במיוחד כשמערכת נשענת על כמה מסדי נתונים ושירותים חיצוניים, וכאשר הקמה של סביבת בדיקה מלאה יקרה או איטית.</p>
+<p>הוא פחות מתאים כפתרון יחיד לאסטרטגיית בדיקות, או כאשר אין שליטה על רגישות הנתונים שנלכדים. כמו בכל כלי שמקליט תעבורה, צריך להגדיר גבולות ברורים למה מותר להקליט ומה מותר לשמור.</p>
+<h2>השורה התחתונה</h2>
+<p>Keploy הופך רעיון פשוט למדי לכלי הנדסי מעניין: אם האפליקציה כבר ביצעה אינטראקציה אמיתית, אפשר להשתמש בה כבסיס לבדיקה חוזרת. השילוב של capture ברמת הרשת, eBPF ושחזור תלויות חיצוניות עשוי לצמצם עבודה ידנית ולקרב בדיקות אינטגרציה להתנהגות שהתרחשה בפועל. המפתח הוא להשתמש בו כמכפיל כוח — לא כתחליף לחשיבה ביקורתית על איכות הבדיקות, פרטיות ותרחישי כשל.</p>
+<h2>מקורות וקישורים</h2>
+<ul><li><a href="https://github.com/keploy/keploy">המאגר הרשמי וה־README</a></li><li><a href="https://keploy.io/docs/keploy-explained/introduction/">הסבר על Record &amp; Replay</a></li><li><a href="https://keploy.io/docs/keploy-explained/how-keploy-works/">איך Keploy עובד</a></li><li><a href="https://keploy.io/docs/server/install/">התקנה, מערכות הפעלה ודרישות</a></li><li><a href="https://github.com/keploy/keploy/releases">גרסאות והערות שחרור</a></li><li><a href="https://github.com/keploy/keploy/blob/main/LICENSE">רישיון Apache-2.0</a></li></ul></article>
+<p class="meta">הכתבה נכתבה לאחר בדיקת המאגר, התיעוד והרישיון. נתוני פעילות וכוכבים עשויים להשתנות. נבדק ב־25 בנובמבר 2026.</p>
+</main>
+<footer><a class="footer-brand" href="../../">השכל הפועל<small>ידע · תרבות · מחשבה</small></a><p>לחשוב מעבר לגבולות המובן מאליו.</p><span>© השכל הפועל · 2026</span></footer>
+</body></html>
