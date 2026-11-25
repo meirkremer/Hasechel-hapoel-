@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="{{META_DESCRIPTION}}">
+<title>{{TITLE}} — פרויקטים בקוד פתוח | השכל הפועל</title>
+<link rel="icon" type="image/svg+xml" href="../../assets/images/brand-symbol.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Assistant:wght@300;400;500;600;700;800&family=Noto+Serif+Hebrew:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../assets/css/styles.css">
+<style>
+.oss-article{width:min(820px,calc(100% - 40px));margin:55px auto 90px}
+.oss-article h1{font:600 clamp(38px,6vw,62px)/1.35 "Noto Serif Hebrew",serif;margin:12px 0 20px}
+.oss-article .dek{font-size:20px;line-height:2;color:#62665d}
+.oss-article .meta{font-size:12px;color:var(--muted);padding:18px 0;border-bottom:1px solid var(--line)}
+.oss-article article{font-size:17px;line-height:2.15}
+.oss-article article h2{font:600 29px "Noto Serif Hebrew",serif;margin:42px 0 12px}
+.oss-article article a{color:#315b43}
+.oss-project-box{background:#eae6dc;padding:22px;margin:28px 0;line-height:2}
+.oss-project-box a{overflow-wrap:anywhere}
+.ask-chatgpt{display:inline-flex;margin:20px 0;padding:12px 18px;background:#294638;color:#fff!important;text-decoration:none;border-radius:3px;font-weight:600}
+@media(max-width:700px){.oss-article{margin:35px auto 65px}}
+</style>
+</head>
+<body>
+<header class="site-header"><a class="brand" href="../../"><span class="brand-mark">הפ</span><span class="brand-words"><strong>השכל הפועל</strong><small>ידע · תרבות · מחשבה</small></span></a><nav aria-label="ניווט ראשי"><a href="../../#articles">כתבות</a><a href="../">קוד פתוח</a><a href="../../#internet">גילוי האינטרנט</a></nav></header>
+<main class="oss-article">
+<p class="eyebrow">פרויקטים בקוד פתוח · {{CATEGORY}}</p>
+<h1>{{TITLE}}</h1>
+<p class="dek">{{DEK}}</p>
+<div class="meta">{{PUBLISHED_DATE}} · {{LANGUAGE}} · {{READING_TIME}}</div>
+<div class="oss-project-box"><strong>הפרויקט המקורי</strong><br><a href="{{REPOSITORY_URL}}">{{REPOSITORY_URL}}</a><br>רישיון: {{LICENSE}} · כוכבים בעת הבדיקה: {{STARS}}</div>
+<a class="ask-chatgpt" href="{{CHATGPT_ARTICLE_URL}}" target="_blank" rel="noopener">לשאול את ChatGPT על הכתבה ↗</a>
+<article>
+{{ARTICLE_BODY}}
+</article>
+<p class="meta">הכתבה מבוססת על בדיקת המאגר והמקורות המפורטים בגוף הטקסט. נתוני GitHub עשויים להשתנות.</p>
+</main>
+<footer><a class="footer-brand" href="../../">השכל הפועל<small>ידע · תרבות · מחשבה</small></a><p>לחשוב מעבר לגבולות המובן מאליו.</p><span>© השכל הפועל · 2026</span></footer>
+</body></html>
