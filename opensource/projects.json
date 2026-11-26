@@ -1,6 +1,36 @@
 {
-  "updated_at": "2026-11-25T21:00:00+02:00",
+  "updated_at": "2026-11-26T08:12:00+02:00",
   "projects": [
+    {
+      "title": "מערכת עיצוב שגם סוכני קוד יודעים להשתמש בה: הכירו את Astryx של Meta",
+      "path": "articles/astryx-design-system.html",
+      "summary": "מערכת עיצוב של Meta עם רכיבי React, ערכות נושא, תבניות ו־CLI שמספק תיעוד וכלים גם למפתחים וגם לסוכני קוד.",
+      "language": "TypeScript",
+      "category": "ממשקי משתמש · React · כלי פיתוח",
+      "published_at": "2026-11-26",
+      "repository_url": "https://github.com/meta/astryx",
+      "license": "MIT"
+    },
+    {
+      "title": "מי מדבר עם האינטרנט? Sniffnet הופכת תעבורת רשת למפה קריאה",
+      "path": "articles/sniffnet-network-monitor.html",
+      "summary": "אפליקציית Rust לניטור תעבורת רשת, זיהוי חיבורים ותוכניות, הצגת נתונים בזמן אמת וייצוא PCAP.",
+      "language": "Rust",
+      "category": "רשתות · אבטחת מידע",
+      "published_at": "2026-11-26",
+      "repository_url": "https://github.com/GyulyVGC/sniffnet",
+      "license": "MIT OR Apache-2.0"
+    },
+    {
+      "title": "למה התהליך הזה רץ? witr מחפש את הסיבה שמאחורי כל PID",
+      "path": "articles/witr-process-tracing.html",
+      "summary": "כלי Go שמקשר בין תהליך, פורט, קובץ או קונטיינר לבין שרשרת ההפעלה ומנהל השירותים שמאחוריהם.",
+      "language": "Go",
+      "category": "מערכות הפעלה · DevOps",
+      "published_at": "2026-11-26",
+      "repository_url": "https://github.com/pranshuparmar/witr",
+      "license": "Apache-2.0"
+    },
     {
       "title": "קונטיינרים בלי המשקל העודף: Kiri מנסה להחליף את Docker Desktop",
       "path": "articles/kiri-container-runtime.html",
