@@ -2,6 +2,6 @@
   <summary>{{ include.article.title | escape }}</summary>
   <article class="expanded-article">
     {% if include.article.summary %}<p class="article-summary">{{ include.article.summary | escape }}</p>{% endif %}
-    <div class="article-body">{{ include.article.content }}</div>
+    <div class="article-body">{{ include.article.output }}</div>
   </article>
 </details>
