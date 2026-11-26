@@ -20,7 +20,7 @@
     <nav aria-label="ניווט ראשי">
       <a href="{{ '/' | relative_url }}">המהדורה</a>
       {% for sector in site.data.sectors %}
-        <a href="{{ '/sectors/' | append: sector.slug | append: '/' | relative_url }}">{{ sector.title }}</a>
+        <a href="{{ '/sectors/' | append: sector.slug | append: '.html' | relative_url }}">{{ sector.title }}</a>
       {% endfor %}
     </nav>
     <a class="header-link" href="{{ '/' | relative_url }}">לגלות משהו חדש <span>←</span></a>
