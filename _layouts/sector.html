@@ -1,14 +1,17 @@
 ---
 layout: default
 ---
-<section class="page-intro wrap">
-  <p class="eyebrow">{{ page.eyebrow }}</p><h1>{{ page.title }}</h1><p class="intro-copy">{{ page.description }}</p>
-</section>
-<section class="wrap sector-feed">
+<section class="section sector-section">
+  <div class="section-heading">
+    <div><p class="eyebrow"><span></span> {{ page.eyebrow }}</p><h2>{{ page.title }}</h2></div>
+    <span class="section-index"><a href="{{ '/' | relative_url }}">חזרה למהדורה ←</a></span>
+  </div>
   {% assign items = site.articles | where: "sector", page.sector | sort: "date" | reverse %}
   {% if items.size > 0 %}
-    {% for article in items %}{% include article-content.html article=article %}{% endfor %}
+    <div class="edition-grid sector-grid">
+      {% for article in items %}{% include article-content.html article=article %}{% endfor %}
+    </div>
   {% else %}
-    <div class="empty-state"><span class="empty-number">01</span><h2>המדור עדיין מתכונן</h2><p>התוכן במדור זה יופיע כאן באופן אוטומטי כאשר תועלה אליו כתבת Markdown.</p></div>
+    <div class="empty-state"><h2>המדור עדיין מתכונן</h2><p>התוכן במדור זה יופיע כאן באופן אוטומטי כאשר תועלה אליו כתבת Markdown.</p></div>
   {% endif %}
 </section>

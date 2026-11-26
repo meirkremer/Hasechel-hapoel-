@@ -3,20 +3,20 @@ layout: default
 title: "המהדורה היומית"
 description: "הכתבות העדכניות בארבעת מדורי השכל הפועל."
 ---
-<section class="edition-hero wrap">
-  <div class="edition-kicker"><span></span> המהדורה היומית <span class="edition-date">{{ site.time | date: "%d.%m.%Y" }}</span></div>
-  <h1>העולם גדול<br>מכפי <em>שנדמה לנו.</em></h1>
-  <p>מהדורה אחת שמרכזת את התוכן העדכני בארבעה תחומים: פטנטים, סילבוסים, קוד פתוח וגילוי האינטרנט.</p>
-</section>
-<section class="wrap edition-feed">
-  {% for sector in site.data.sectors %}
-    {% assign items = site.articles | where: "sector", sector.slug | sort: "date" | reverse %}
-    <section class="edition-sector">
-      <div class="sector-heading"><div><p class="eyebrow">{{ sector.eyebrow }}</p><h2>{{ sector.title }}</h2></div>
-        <a href="{{ '/sectors/' | append: sector.slug | append: '/' | relative_url }}">לכל המדור <span>←</span></a>
-      </div>
-      {% if items.size > 0 %}{% assign latest = items | first %}{% include article-content.html article=latest %}
-      {% else %}<div class="empty-state compact"><p>טרם פורסמו כתבות במדור. כתבת Markdown חדשה בתיקיית המדור תופיע כאן אוטומטית.</p></div>{% endif %}
-    </section>
-  {% endfor %}
+<section class="section edition-section" id="articles">
+  <div class="section-heading">
+    <div><p class="eyebrow"><span></span> רעיונות, תופעות ותגליות</p><h2>המהדורה היומית</h2></div>
+    <span class="section-index">לקרוא <i>·</i> להבין <i>·</i> להעמיק</span>
+  </div>
+  <div class="edition-grid">
+    {% for sector in site.data.sectors %}
+      {% assign items = site.articles | where: "sector", sector.slug | sort: "date" | reverse %}
+      {% if items.size > 0 %}
+        {% assign latest = items | first %}
+        {% include article-content.html article=latest %}
+      {% else %}
+        <div class="edition-card empty-card"><span>התוכן במדור {{ sector.title }} יופיע כאן אוטומטית.</span></div>
+      {% endif %}
+    {% endfor %}
+  </div>
 </section>

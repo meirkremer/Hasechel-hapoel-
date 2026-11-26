@@ -1,7 +1,7 @@
-<article class="article-entry">
-  <header class="article-header"><p class="article-meta">{{ include.article.date | date: "%d.%m.%Y" }}</p>
-    <h2>{{ include.article.title | escape }}</h2>
+<details class="edition-card">
+  <summary>{{ include.article.title | escape }}</summary>
+  <article class="expanded-article">
     {% if include.article.summary %}<p class="article-summary">{{ include.article.summary | escape }}</p>{% endif %}
-  </header>
-  <div class="article-body">{{ include.article.content }}</div>
-</article>
+    <div class="article-body">{{ include.article.content }}</div>
+  </article>
+</details>
