@@ -1,7 +1,7 @@
 title: "השכל הפועל"
 description: "ידע, רעיונות ותגליות — מהדורה יומית בארבעה תחומים."
-url: "https://meirkremer.github.io"
-baseurl: "/Hasechel-hapoel-"
+url: "https://hasechel-hapoel.cc.cd"
+baseurl: ""
 lang: he
 timezone: Asia/Jerusalem
 markdown: kramdown
