@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="witr הוא כלי קוד פתוח ל־Linux, macOS, Windows ו־FreeBSD שמסביר מי הפעיל תהליך, מה מחזיק פורט או קובץ פתוח, ואיזה שירות או קונטיינר עומד מאחוריו.">
+<title>למה התהליך הזה רץ? witr מחפש את הסיבה שמאחורי כל PID — פרויקטים בקוד פתוח | השכל הפועל</title>
+<link rel="icon" type="image/svg+xml" href="../../assets/images/brand-symbol.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Assistant:wght@300;400;500;600;700;800&family=Noto+Serif+Hebrew:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../assets/css/styles.css">
+<style>
+.oss-article{width:min(820px,calc(100% - 40px));margin:55px auto 90px}
+.oss-article h1{font:600 clamp(38px,6vw,62px)/1.35 "Noto Serif Hebrew",serif;margin:12px 0 20px}
+.oss-article .dek{font-size:20px;line-height:2;color:#62665d}
+.oss-article .meta{font-size:12px;color:var(--muted);padding:18px 0;border-bottom:1px solid var(--line)}
+.oss-article article{font-size:17px;line-height:2.15}
+.oss-article article h2{font:600 29px "Noto Serif Hebrew",serif;margin:42px 0 12px}
+.oss-article article a{color:#315b43}
+.oss-project-box{background:#eae6dc;padding:22px;margin:28px 0;line-height:2}
+.oss-project-box a{overflow-wrap:anywhere}
+.ask-chatgpt{display:inline-flex;margin:20px 0;padding:12px 18px;background:#294638;color:#fff!important;text-decoration:none;border-radius:3px;font-weight:600}
+@media(max-width:700px){.oss-article{margin:35px auto 65px}}
+</style>
+</head>
+<body>
+<header class="site-header"><a class="brand" href="../../"><span class="brand-mark">הפ</span><span class="brand-words"><strong>השכל הפועל</strong><small>ידע · תרבות · מחשבה</small></span></a><nav aria-label="ניווט ראשי"><a href="../../#articles">כתבות</a><a href="../">קוד פתוח</a><a href="../../#internet">גילוי האינטרנט</a></nav></header>
+<main class="oss-article">
+<p class="eyebrow">פרויקטים בקוד פתוח · מערכות הפעלה · DevOps · Go</p>
+<h1>למה התהליך הזה רץ? witr מחפש את הסיבה שמאחורי כל PID</h1>
+<p class="dek">במקום להסתפק בשם תהליך או במספר פורט, כלי Go קטן מחבר בין PID, שרשרת ההורים, מנהלי שירותים וקונטיינרים — ומציג את ההקשר בדוח, JSON או מסך אינטראקטיבי.</p>
+<div class="meta">26 בנובמבר 2026 · Go · כ־9 דקות קריאה</div>
+<div class="oss-project-box"><strong>הפרויקט המקורי</strong><br><a href="https://github.com/pranshuparmar/witr">https://github.com/pranshuparmar/witr</a><br>רישיון: Apache-2.0 · כוכבים בעת הבדיקה: כ־23.4 אלף</div>
+<a class="ask-chatgpt" href="https://chatgpt.com/?q=%D7%A7%D7%A8%D7%90%20%D7%90%D7%AA%20%D7%94%D7%9B%D7%AA%D7%91%D7%94%20%D7%94%D7%96%D7%95%20%D7%91%D7%90%D7%AA%D7%A8%20%D7%94%D7%A9%D7%9B%D7%9C%20%D7%94%D7%A4%D7%95%D7%A2%D7%9C%3A%20https%3A%2F%2Fmeirkremer.github.io%2FHasechel-hapoel-%2Fopensource%2Farticles%2Fwitr-process-tracing.html%0A%D7%A2%D7%96%D7%95%D7%A8%20%D7%9C%D7%99%20%D7%9C%D7%94%D7%91%D7%99%D7%9F%20%D7%90%D7%AA%20%D7%94%D7%A4%D7%A8%D7%95%D7%99%D7%A7%D7%98%20witr%3A%20%D7%94%D7%A1%D7%91%D7%A8%20%D7%9E%D7%95%D7%A9%D7%92%D7%99%D7%9D%20%D7%98%D7%9B%D7%A0%D7%99%D7%99%D7%9D%2C%20%D7%A2%D7%A0%D7%94%20%D7%A2%D7%9C%20%D7%A9%D7%90%D7%9C%D7%95%D7%AA%D7%99%D7%99%2C%20%D7%94%D7%91%D7%97%D6%B5%D7%9F%20%D7%91%D7%99%D7%9F%20%D7%9E%D7%94%20%D7%A9%D7%9B%D7%AA%D7%95%D7%91%20%D7%91%D7%9B%D7%AA%D7%91%D7%94%20%D7%9C%D7%91%D7%99%D7%9F%20%D7%9E%D7%99%D7%93%D7%A2%20%D7%A0%D7%95%D7%A1%D7%A3%2C%20%D7%95%D7%94%D7%A4%D7%A0%D7%94%20%D7%9C%D7%9E%D7%A7%D7%95%D7%A8%D7%95%D7%AA%20%D7%A8%D7%90%D7%A9%D7%95%D7%A0%D7%99%D7%99%D7%9D%20%D7%9B%D7%A9%D7%A6%D7%A8%D7%99%D7%9A." target="_blank" rel="noopener">שאלו את ChatGPT על הפרויקט ↗</a>
+<article>
+<p>פורט 8080 תפוס. אתם יודעים שיש תהליך שמאזין לו, אבל לא ברור מי הפעיל אותו. אולי זה שרת פיתוח ששכחתם לסגור; אולי שירות שמנוהל על ידי systemd; אולי תהליך בתוך קונטיינר; ואולי תוכנה אחרת הפעילה אותו דרך מנהל תהליכים. הפקודות הרגילות — <code>ps</code>,‏ <code>lsof</code>,‏ <code>ss</code>,‏ <code>systemctl</code> או <code>docker ps</code> — יכולות לספק חלקים מהתשובה, אבל לעיתים קרובות צריך לחבר את הפלטים ידנית.</p>
+<p><strong>witr</strong> נבנה סביב שאלה אחת: <em>Why is this running?</em> למה הדבר הזה רץ? הוא מנסה לעבור מהתיאור של התהליך אל הסיבה שהפעילה אותו: מי ההורה שלו, האם מנהל שירותים אחראי לו, האם הוא שייך לקונטיינר, מה מחזיק את הפורט, ואיזה הקשר מערכת מקיף אותו. במקום להריץ שרשרת של פקודות ולפרש כל פלט בנפרד, מקבלים דוח אחד, JSON למכונות או ממשק אינטראקטיבי במסוף.</p>
+<h2>לא רק למצוא PID — להבין את מקורו</h2>
+<p>רוב כלי ניטור התהליכים מתמקדים במצב הנוכחי: שם התהליך, מזהה PID, שימוש בזיכרון או CPU, פורטים פתוחים ולעיתים גם עץ הורים. witr מנסה להוסיף שכבת סיבתיות. הוא שואל לא רק מי מחזיק כרגע את המשאב, אלא גם מי יצר את התהליך ואיזה מנגנון ממשיך להחזיק אותו בחיים.</p>
+<p>אפשר להתחיל מתהליך לפי שם או PID, אבל גם מפורט, מקובץ או מקונטיינר. למשל, <code>witr --port 8080</code> מחפש מי מחזיק את הפורט ומנסה להתחקות אחר התהליך שמאחוריו. <code>witr --pid 1234 --tree</code> מציג את שרשרת ההורים והילדים. <code>witr --container redis</code> בודק קונטיינר לפי שם או מזהה. אפשר גם לשלב כמה מטרות באותה הרצה.</p>
+<h2>איך witr בונה את שרשרת הסיבה?</h2>
+<p>הקוד מחולק לשלבים. תחילה רכיב Target מקבל את סוג היעד — PID, שם, פורט או קובץ — ומנסה לתרגם אותו למזהי תהליכים. לאחר מכן רכיב Process קורא את פרטי התהליך ואת שרשרת האבות שלו. בשלב הבא Pipeline מנתח את השרשרת, ורכיב Source מנסה לזהות את המנגנון שממנו הגיע התהליך.</p>
+<p>אפשר לראות זאת בקוד עצמו: <a href="https://github.com/pranshuparmar/witr/blob/main/internal/target/resolve.go">resolve.go</a> מטפל בסוגי היעדים, <a href="https://github.com/pranshuparmar/witr/blob/main/internal/proc/ancestry.go">ancestry.go</a> מטפס בין תהליך להורה שלו, ו־<a href="https://github.com/pranshuparmar/witr/blob/main/internal/pipeline/analyze.go">analyze.go</a> מחבר בין שרשרת התהליכים לבין זיהוי המקור. זה אינו רק אוסף פקודות shell: יש מודל נתונים משותף שמאפשר להציג תוצאה דומה גם כאשר הדרך לאסוף אותה שונה בין מערכות הפעלה.</p>
+<p>השלב המעניין ביותר הוא זיהוי המקור. תהליך עשוי להיות מופעל על ידי shell, מנהל שירותים, supervisor, מתזמן, סביבת SSH או runtime של קונטיינרים. בלינוקס, למשל, witr משתמש במידע מ־cgroups כדי לזהות יחידת systemd, ואז יכול להעשיר את התוצאה באמצעות D-Bus בפרטים כמו תיאור השירות, קובץ היחידה ומספר הפעלות מחדש. בקוד של <a href="https://github.com/pranshuparmar/witr/blob/main/internal/source/systemd_linux.go">systemd_linux.go</a> רואים גם שהקריאות ל־D-Bus מוגבלות בזמן, כדי שמנהל שירותים שאינו מגיב לא יעכב את כל הדוח.</p>
+<p>יש כאן גם זהירות חשובה: שרשרת תהליכים אינה תמיד שלמה. תהליך הורה יכול להסתיים לפני שהילד נבדק, ומזהה PID עשוי להיות ממוחזר לתהליך אחר. witr בודק זמני התחלה ומנסה לזהות מקרים שבהם תהליך חדש תפס את מקומו של הורה ישן, כדי לא לחבר בטעות בין תהליכים שאינם קשורים. אם מקור התהליך אינו ניתן להוכחה, הכלי יכול לסמן שהסיבה אינה ידועה במקום להמציא הסבר.</p>
+<h2>אותו רעיון, מימוש אחר בכל מערכת הפעלה</h2>
+<p>witr תומך ב־Linux,‏ macOS,‏ Windows ו־FreeBSD, אבל אינו משתמש באותה שיטת איסוף בכל מקום. בלינוקס הוא נשען במידה רבה על <code>/proc</code> ועל מידע של systemd. ב־macOS הוא משתמש בכלים וממשקים כגון <code>ps</code>,‏ <code>lsof</code>,‏ <code>netstat</code>,‏ <code>sysctl</code> ו־<code>launchctl</code>. ב־Windows הוא משתמש ישירות בממשקי Win32 כגון ToolHelp32,‏ PSAPI ו־Service Control Manager, בלי להסתמך על PowerShell או WMI. ב־FreeBSD הוא משלב <code>procstat</code>,‏ <code>sockstat</code>,‏ <code>fstat</code> ו־<code>ps</code>.</p>
+<p>גם עולם הקונטיינרים מכוסה במגוון רחב: Docker,‏ Podman,‏ nerdctl,‏ Kubernetes דרך crictl ומידע cgroup, וכן Incus,‏ LXC,‏ LXD ו־FreeBSD jails. כאשר פורט שייך למעשה ל־proxy או ל־socket activation, witr מנסה לעקוב מעבר לתהליך שמחזיק את השקע ולמצוא את השירות או הקונטיינר שמאחוריו. עם זאת, עבור חלק מסוגי הקונטיינרים נדרש שה־CLI של ה־runtime יהיה מותקן וזמין ב־PATH.</p>
+<h2>דוח רגיל, JSON או מסך אינטראקטיבי</h2>
+<p>הפלט האנושי הוא רק אחת האפשרויות. אפשר לבקש JSON באמצעות <code>--json</code>, פלט קצר באמצעות <code>--short</code>, עץ תהליכים באמצעות <code>--tree</code>, מידע מורחב באמצעות <code>--verbose</code> או משתני סביבה באמצעות <code>--env</code>. כאשר מריצים את witr בלי יעד, הוא פותח ממשק TUI שמציג לשוניות לתהליכים, פורטים, קונטיינרים ונעילות קבצים.</p>
+<p>האפשרות לייצר JSON חשובה במיוחד לאוטומציה. סקריפט יכול לבדוק מי מחזיק פורט, לקרוא את קוד היציאה ולבחור אם להמשיך. גם סוכני קוד יכולים להשתמש בו: המאגר מספק הנחיות Agent Skill שמסבירות איזה פקודה מתאימה לאיזה מצב ואיך לפרש את התוצאה. זה לא אומר שהסוכן מקבל הרשאה לעצור תהליכים — הכלי מיועד לאבחון, וההחלטה מה לעשות עם המידע נשארת בידי המשתמש או מערכת ההפעלה.</p>
+<p>דוגמה קצרה לשימוש:</p>
+<pre><code>witr --port 5432
+witr nginx --tree
+witr --container redis --json
+witr --pid 1234 --verbose</code></pre>
+<p>הכלי משתמש גם בקודי יציאה מובחנים: תהליך שנמצא ללא אזהרות, תהליך שנמצא עם אזהרות, יעד שלא נמצא, הרשאות חסרות, קלט שגוי, שגיאה פנימית או מצב שבו התהליך נמצא אך מקורו אינו ידוע. ההבחנה הזאת מאפשרת לסקריפטים להבדיל בין תקלה אמיתית לבין ממצא שדורש בדיקה.</p>
+<h2>מה צריך להתקין, ומהן מגבלות ההרשאה?</h2>
+<p>witr מופץ כקובץ בינארי יחיד למערכות ההפעלה הנתמכות, וגם זמין דרך מנהלי חבילות כגון Homebrew,‏ Conda ו־Winget. אפשר להתקין אותו מקוד המקור באמצעות Go, אבל קובץ <code>go.mod</code> דורש Go 1.25 ומעלה. למשתמש רגיל עדיף לבחור חבילת הפצה מתאימה, ולבדוק את הוראות ההתקנה והאימות של checksum בעמוד הפרויקט.</p>
+<p>המידע ש־witr יכול לראות תלוי בהרשאות. בלינוקס וב־FreeBSD ייתכן שיידרשו הרשאות מנהל כדי לקרוא פרטי תהליכים או קבצים של משתמשים אחרים. ב־macOS, מנגנון System Integrity Protection עלול להסתיר פרטים גם כאשר מריצים עם sudo. ב־Windows, כדי לראות מידע על תהליכים של משתמשים אחרים או שירותי מערכת, יש לפתוח מסוף כמנהל מערכת.</p>
+<p>יש גם פערים בין הפלטפורמות. למשל, קריאת משתני סביבה מוגבלת בחלק מהמערכות; זיהוי tmux ו־screen, מתזמנים, מנעולי קבצים ופעולות תהליך אינו זהה בכל מערכת הפעלה. עמוד התאימות של הפרויקט מפרט את ההבדלים. לכן אין להסיק מכך שהפקודה קיימת בכל מקום שכל שדה יהיה זמין בכל מקום.</p>
+<h2>אבטחה ופרטיות: הדוח עשוי להיות רגיש</h2>
+<p>כלי אבחון כזה קורא מידע שעלול לחשוף הרבה יותר ממה שנדמה: שורת פקודה עשויה לכלול טוקן או סיסמה, משתני סביבה עשויים להכיל מפתחות API, ונתיבי קבצים יכולים לחשוף שמות פרויקטים או משתמשים. לכן יש להיזהר במיוחד עם <code>--env</code> ועם פלט JSON שנשמר בקובץ או נשלח לשירות חיצוני. כדאי להריץ בהרשאות גבוהות רק כאשר באמת צריך אותן, ולא להפיץ דוחות מערכת ללא בדיקה.</p>
+<p>הכלי אינו מערכת ניטור היסטורית: הוא מתאר את מצב המערכת בזמן ההרצה, ולא בונה בהכרח ציר זמן ארוך של אירועים. הוא גם אינו מחליף כלי אבטחה, EDR או מערכת observability ארגונית. הערך שלו ממוקד יותר — לצמצם את זמן החקירה כאשר מישהו שואל למה תהליך מסוים רץ או מי תפס פורט מסוים.</p>
+<h2>מצב הפרויקט ולמי הוא מועיל?</h2>
+<p>הגרסה האחרונה בעמוד ה־Releases היא <code>v0.3.4</code>, שפורסמה ב־4 באוקטובר 2026. מאז נוספו תיקונים ושינויים לענף הראשי; בבדיקת המאגר נראו commits עד 21 בנובמבר, כולל תיקונים לטיפול ב־PID ממוחזר, תמיכה ב־LoongArch ושיפורים להתקנה ול־TUI. כלומר, קצב השחרורים אינו זהה לקצב העבודה בענף הראשי, ולכן כדאי לבדוק את הערות השחרור לפני שמניחים שתכונה חדשה כבר כלולה בבינארי האחרון.</p>
+<p>witr מתאים במיוחד למפתחים ולמנהלי מערכות שמבלים זמן בפתרון בעיות סביב תהליכים, פורטים ושירותים. הוא יכול לחסוך מעבר ידני בין כמה פקודות, ובעיקר לעזור להבין את שרשרת ההפעלה ולא רק את התוצאה. מי שזקוק למעקב רציף, היסטוריה, התראות או ניתוח אבטחה עמוק יצטרך כלים נוספים.</p>
+<p><strong>השורה התחתונה:</strong> witr לוקח שאלה קטנה ומוכרת — מי תופס את הפורט הזה? — ומנסה לענות עליה בשפה של מערכת ההפעלה כולה. החוזקה שלו היא חיבור בין תהליך, הורה, שירות, supervisor וקונטיינר, תוך הצגת אי־ודאות כאשר השרשרת אינה שלמה. זהו כלי אבחון ממוקד, לא קסם שמסביר כל תהליך, אבל עבור מי שמתחזק מערכות הוא עשוי להפוך חקירה מעייפת לדוח אחד ברור.</p>
+<h2>מקורות וקישורים</h2>
+<ul>
+<li><a href="https://github.com/pranshuparmar/witr">המאגר הרשמי של witr</a> — README, דוגמאות, תאימות ורישיון</li>
+<li><a href="https://github.com/pranshuparmar/witr/releases/tag/v0.3.4">גרסה v0.3.4</a> — הערות שחרור מ־4 באוקטובר 2026</li>
+<li><a href="https://github.com/pranshuparmar/witr/blob/main/internal/proc/ancestry.go">קוד שרשרת התהליכים</a></li>
+<li><a href="https://github.com/pranshuparmar/witr/blob/main/internal/pipeline/analyze.go">שלב הניתוח</a></li>
+<li><a href="https://github.com/pranshuparmar/witr/blob/main/internal/source/detect.go">זיהוי מקור התהליך</a></li>
+<li><a href="https://github.com/pranshuparmar/witr/blob/main/internal/source/systemd_linux.go">אינטגרציה עם systemd</a></li>
+<li><a href="https://github.com/pranshuparmar/witr/blob/main/SECURITY.md">מדיניות האבטחה</a> ו־<a href="https://github.com/pranshuparmar/witr/blob/main/LICENSE">רישיון Apache-2.0</a></li>
+</ul>
+<p>הנתונים נבדקו ב־26 בנובמבר 2026. נתוני GitHub, גרסאות ותמיכה במערכות הפעלה עשויים להשתנות.</p>
+</article>
+<p class="meta">הכתבה מבוססת על בדיקת המאגר והמקורות המפורטים בגוף הטקסט. נתוני GitHub עשויים להשתנות.</p>
+</main>
+<footer><a class="footer-brand" href="../../">השכל הפועל<small>ידע · תרבות · מחשבה</small></a><p>לחשוב מעבר לגבולות המובן מאליו.</p><span>© השכל הפועל · 2026</span></footer>
+</body></html>
