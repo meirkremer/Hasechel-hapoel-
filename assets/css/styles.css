@@ -47,3 +47,11 @@
 .article-footer-nav a{color:var(--green);font:700 12px "Assistant",Arial,sans-serif;text-decoration:none}
 @media(max-width:800px){.edition-section,.sector-section{width:calc(100% - 40px);padding:48px 0 65px}.site-header{width:calc(100% - 40px);flex-wrap:wrap;gap:16px;padding:18px 0}.site-header nav{gap:15px;flex-wrap:wrap}.header-link{display:none}.edition-grid{gap:13px}.edition-card{min-height:210px;padding:20px}.article-page{padding:38px 0 65px}.article-page-body{font-size:17px;line-height:2}}
 @media(max-width:560px){.edition-section,.sector-section{width:calc(100% - 36px);padding:37px 0 55px}.site-header{width:calc(100% - 36px);min-height:0}.site-header nav{gap:10px 14px}.site-header nav a{font-size:11px}.edition-grid{grid-template-columns:1fr;gap:11px}.edition-card{min-height:0;padding:19px}.card-topline{margin-bottom:15px}.card-title{font-size:23px}.card-summary{-webkit-line-clamp:3}.empty-card{min-height:80px}.section-heading{align-items:flex-start;gap:12px}.section-heading h2{font-size:32px}.section-index{font-size:9px}.article-page{width:calc(100% - 36px);padding:30px 0 55px}.article-header h1{font-size:35px}.article-page-body{font-size:16.5px;line-height:2}.article-page-body h2{font-size:1.55rem}.article-page-body h3{font-size:1.3rem}.article-footer-nav{flex-direction:column;gap:15px}footer{padding:20px 18px;gap:12px;flex-wrap:wrap}footer p{display:none}}
+
+
+/* Restore the original open-book and knowledge-tree brand identity */
+.site-header .brand{display:flex;align-items:center;justify-content:flex-start;flex:0 0 auto;width:236px;height:92px;min-width:0;text-decoration:none}
+.site-header .brand-logo{display:block;width:100%;height:100%;max-width:100%;object-fit:contain;object-position:right center}
+.site-header .brand:focus-visible{outline:2px solid #c18a32;outline-offset:4px;border-radius:6px}
+@media(max-width:800px){.site-header .brand{width:190px;height:78px;flex-basis:190px}}
+@media(max-width:560px){.site-header .brand{width:158px;height:68px;flex-basis:158px}}
