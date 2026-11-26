@@ -1,0 +1,38 @@
+title: "השכל הפועל"
+description: "ידע, רעיונות ותגליות — מהדורה יומית בארבעה תחומים."
+url: "https://meirkremer.github.io"
+baseurl: "/Hasechel-hapoel-"
+lang: he
+timezone: Asia/Jerusalem
+markdown: kramdown
+permalink: pretty
+collections:
+  articles:
+    output: false
+defaults:
+  - scope:
+      path: "_articles/patents"
+      type: "articles"
+    values:
+      sector: "patents"
+  - scope:
+      path: "_articles/syllabi"
+      type: "articles"
+    values:
+      sector: "syllabi"
+  - scope:
+      path: "_articles/open-source"
+      type: "articles"
+    values:
+      sector: "open-source"
+  - scope:
+      path: "_articles/internet-discovery"
+      type: "articles"
+    values:
+      sector: "internet-discovery"
+exclude:
+  - README.md
+  - CONTENT_GUIDE.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor

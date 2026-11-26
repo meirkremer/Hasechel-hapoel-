@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="{{ page.description | default: site.description | escape }}">
+  <title>{% if page.title %}{{ page.title }} · {% endif %}{{ site.title }}</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@300;400;500;600;700;800&family=Noto+Serif+Hebrew:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}">
+</head>
+<body>
+  <div class="topline"><div class="wrap"><span>ידע · תרבות · מחשבה</span><span>מהדורה מתעדכנת</span></div></div>
+  <header class="site-header wrap">
+    <a class="brand" href="{{ '/' | relative_url }}" aria-label="השכל הפועל — עמוד הבית">
+      <span class="brand-mark">הש</span><span><strong>השכל הפועל</strong><small>לחשוב מעבר למובן מאליו</small></span>
+    </a>
+    <nav aria-label="ניווט ראשי">
+      <a href="{{ '/' | relative_url }}">המהדורה</a>
+      {% for sector in site.data.sectors %}
+        <a href="{{ '/sectors/' | append: sector.slug | append: '/' | relative_url }}">{{ sector.title }}</a>
+      {% endfor %}
+    </nav>
+  </header>
+  <main>{{ content }}</main>
+  <footer class="site-footer"><div class="wrap footer-inner">
+    <a class="brand footer-brand" href="{{ '/' | relative_url }}"><span class="brand-mark">הש</span><span><strong>השכל הפועל</strong><small>ידע · תרבות · מחשבה</small></span></a>
+    <p>מרחב תוכן עצמאי לסקרנות רצינית.</p><span>© {{ site.time | date: "%Y" }} השכל הפועל</span>
+  </div></footer>
+</body></html>
