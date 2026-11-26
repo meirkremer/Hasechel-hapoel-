@@ -1,7 +1,10 @@
-<details class="edition-card">
-  <summary>{{ include.article.title | escape }}</summary>
-  <article class="expanded-article">
-    {% if include.article.summary %}<p class="article-summary">{{ include.article.summary | escape }}</p>{% endif %}
-    <div class="article-body">{{ include.article.output }}</div>
-  </article>
-</details>
+{% assign article_sector = site.data.sectors | where: "slug", include.article.sector | first %}
+<a class="edition-card" href="{{ include.article.url | relative_url }}">
+  <div class="card-topline">
+    <span class="sector-tag">{{ article_sector.title }}</span>
+    <time datetime="{{ include.article.date | date_to_xmlschema }}">{{ include.article.date | date: "%d.%m.%Y" }}</time>
+  </div>
+  <h3 class="card-title">{{ include.article.title | escape }}</h3>
+  {% if include.article.summary %}<p class="card-summary">{{ include.article.summary | escape }}</p>{% endif %}
+  <span class="card-read-more">לקריאת הכתבה <span aria-hidden="true">←</span></span>
+</a>

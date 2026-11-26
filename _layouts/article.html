@@ -1,0 +1,20 @@
+---
+layout: default
+---
+{% assign article_sector = site.data.sectors | where: "slug", page.sector | first %}
+<article class="article-page">
+  <header class="article-header">
+    <a class="article-back-link" href="{{ '/sectors/' | append: page.sector | append: '.html' | relative_url }}">← לכל כתבות {{ article_sector.title }}</a>
+    <div class="article-meta">
+      <a class="sector-tag sector-tag-large" href="{{ '/sectors/' | append: page.sector | append: '.html' | relative_url }}">{{ article_sector.title }}</a>
+      <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%d.%m.%Y" }}</time>
+    </div>
+    <h1>{{ page.title | escape }}</h1>
+    {% if page.summary %}<p class="article-summary">{{ page.summary | escape }}</p>{% endif %}
+  </header>
+  <div class="article-body article-page-body">{{ content }}</div>
+  <nav class="article-footer-nav" aria-label="ניווט בכתבה">
+    <a href="{{ '/sectors/' | append: page.sector | append: '.html' | relative_url }}">← חזרה למדור {{ article_sector.title }}</a>
+    <a href="{{ '/' | relative_url }}">לעמוד המהדורה</a>
+  </nav>
+</article>
