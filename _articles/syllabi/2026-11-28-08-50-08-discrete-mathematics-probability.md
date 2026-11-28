@@ -78,13 +78,14 @@ summary: "קורס מאוניברסיטת אדינבורו מחבר בין לו�
 
 ## על בסיס איזה קורס?
 
-הכתבה מבוססת על **DMP: Discrete Mathematics and Probability**, קורס לתואר ראשון בשנה השנייה בבית הספר למדעי המידע של **University of Edinburgh**. נבדקו חומרי הקורס של שנת **2025/26**, המוצגים כארכיון לצורך הכנה למועד הבחינה החוזרת באוגוסט 2026. דף הקורס הציבורי אינו מציג מרצה יחיד. הוא כולל תוכנית שבועית, מדריכי לימוד, תרגילים, ספרי לימוד, הרצאות ומידע על הערכה.
+הכתבה מבוססת על **DMP: Discrete Mathematics and Probability**, קורס לתואר ראשון בשנה השנייה בבית הספר למדעי המידע של **University of Edinburgh**. נבדקו חומרי הקורס של שנת **2025/26**, המוצגים כארכיון לצורך הכנה למועד הבחינה החוזרת באוגוסט 2026. בדף המבוא להרצאה הראשונה משנת 2025 מצוין Ian Stark כמרצה הקורס. חומרי הקורס כוללים תוכנית שבועית, מדריכי לימוד, תרגילים, ספרי לימוד, הרצאות ומידע על הערכה.
 
 - [עמוד הקורס הרשמי](https://opencourse.inf.ed.ac.uk/archives/25-26/node/831.html)
 - [לוח שבועי ונושאי הלימוד](https://opencourse.inf.ed.ac.uk/archives/25-26/node/836.html)
 - [מדריכי הלימוד השבועיים](https://opencourse.inf.ed.ac.uk/archives/25-26/node/1569.html)
 - [ספרי הלימוד](https://opencourse.inf.ed.ac.uk/archives/25-26/node/1579.html)
 - [מטלות והערכה](https://opencourse.inf.ed.ac.uk/archives/25-26/node/2150.html)
+- [הרצאת המבוא לשנת 2025 — מציינת את Ian Stark כמרצה](https://opencourse.inf.ed.ac.uk/sites/default/files/https/opencourse.inf.ed.ac.uk/dmp/2025/dmp25-lecture1-after.pdf)
 
 ## מקורות להעמקה
 
