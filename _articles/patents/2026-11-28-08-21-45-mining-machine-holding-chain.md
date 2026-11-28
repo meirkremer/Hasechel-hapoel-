@@ -102,7 +102,7 @@ summary: "ב־1903 קיבל המהנדס הנרי ב׳ דיירדורף פטנט
 
 ## מקורות ומסמכים
 
-- [US 736,705 A — Mining-Machine, מסמך הפטנט המקורי](https://patentimages.storage.googleapis.com/4f/8a/0b/8f/f9b0e3f8a3b8e2/US736705.pdf) — משרד הפטנטים האמריקאי, 18 באוגוסט 1903. מקור ראשוני למבנה המכונה, למנגנון האחיזה, ל־14 התביעות, לממציא, למוטב ההעברה ולתאריכי הבקשה וההענקה.
+- [US 736,705 A — Mining-Machine, מסמך הפטנט המקורי](https://patentimages.storage.googleapis.com/34/10/1b/fff56c162624e4/US736705.pdf) — משרד הפטנטים האמריקאי, 18 באוגוסט 1903. מקור ראשוני למבנה המכונה, למנגנון האחיזה, ל־14 התביעות, לממציא, למוטב ההעברה ולתאריכי הבקשה וההענקה.
 - [US736705A — רשומת Google Patents](https://patents.google.com/patent/US736705A/en) — פרטי הבקשה, מספר המשפחה 2805212, מספר הבקשה והפרסום היחיד במשפחה.
 - [Jeffrey’s Manufacturing History in Columbus](https://www.jeffreyco.com/docs/Short_History.pdf) — Robert H. “Tad” Jeffrey, הרצאה לחברה ההיסטורית של קולומבוס, 26 בספטמבר 2002. מקור רטרוספקטיבי להיסטוריה של החברה ולתנאי העבודה בכריית הפחם לפני המיכון.
 - [Our History](https://www.jeffreyco.com/our-history) — The Jeffrey Company, ללא תאריך פרסום מצוין. תולדות השותפות שהוקמה ב־1876 והקמת Jeffrey Manufacturing Company ב־1887.
