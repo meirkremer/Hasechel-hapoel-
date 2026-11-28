@@ -82,7 +82,7 @@ summary: "קורס מאוניברסיטת אדינבורו מחבר בין לו�
 
 - [עמוד הקורס הרשמי](https://opencourse.inf.ed.ac.uk/archives/25-26/node/831.html)
 - [לוח שבועי ונושאי הלימוד](https://opencourse.inf.ed.ac.uk/archives/25-26/node/836.html)
-- [מדריכי הלימוד השבועיים](https://opencourse.inf.ed.ac.uk/archives/25-26/node/1577.html)
+- [מדריכי הלימוד השבועיים](https://opencourse.inf.ed.ac.uk/archives/25-26/node/1569.html)
 - [ספרי הלימוד](https://opencourse.inf.ed.ac.uk/archives/25-26/node/1579.html)
 - [מטלות והערכה](https://opencourse.inf.ed.ac.uk/archives/25-26/node/2150.html)
 
